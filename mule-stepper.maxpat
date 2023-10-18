@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 111.0, 62.0, 1097.0, 564.0 ],
+		"rect" : [ 111.0, 62.0, 1077.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,46 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-111",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 98.0, 1688.5, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-94",
+					"linecount" : 7,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 98.0, 1722.5, 50.0, 102.0 ],
+					"text" : "url https://vdo.ninja/?view=mule_stepper_cards"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "jweb",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 98.0, 1856.5, 320.0, 240.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 82.0, 445.0, 320.0, 180.0 ],
+					"rendermode" : 0,
+					"url" : "https://vdo.ninja/?view=mule_stepper_cards"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-141",
 					"maxclass" : "newobj",
@@ -276,7 +316,7 @@
 					"patching_rect" : [ 220.719624698162079, 562.943920910358429, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 50.0, 410.411211788654327, 264.018690705299377, 20.0 ],
-					"text" : "last edits - 9/28"
+					"text" : "last edits - 10/18"
 				}
 
 			}
@@ -1909,7 +1949,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 907.0, 202.0, 40.0, 66.0 ],
 					"size" : 4,
-					"value" : 3
+					"value" : 2
 				}
 
 			}
@@ -5157,7 +5197,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 907.0, 48.0, 40.0, 82.0 ],
 					"size" : 5,
-					"value" : 4
+					"value" : 1
 				}
 
 			}
@@ -5946,6 +5986,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-166", 0 ],
 					"source" : [ "obj-110", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
+					"source" : [ "obj-111", 0 ]
 				}
 
 			}
@@ -6846,6 +6893,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-94", 0 ]
 				}
 
 			}
