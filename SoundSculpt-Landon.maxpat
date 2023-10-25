@@ -379,17 +379,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-121",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2280.0, 1505.0, 100.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-118",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1767,7 +1756,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3087.0, 794.0, 150.0, 74.0 ],
-					"presentation_linecount" : 5,
 					"text" : "add randomizer? for window size and window pos with randomized time intervals for random window/pos changes"
 				}
 
@@ -2608,7 +2596,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4465.66666666666606, 1013.3740234375, 156.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "add separate oscillators for both dials, requires two new dials"
 				}
 
@@ -24339,7 +24326,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2774.513191159599955, 1379.5, 277.00695101413362, 221.0 ],
-					"presentation_linecount" : 16,
 					"text" : "add functions for:\n\nslider that changes start and end/window size \n\nslider that can then move that window's starting point for whichever key is being held currently/having it's window size adjusted\n\nprobably going to have to use r leng for values in math and r loopPoints\n\nslider that adjusts rate at which window size oscilates between full size and adjusted size \n\nslider that adjust rate at which window moves back and forth "
 				}
 
@@ -25331,7 +25317,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3544.725806474685669, 1412.0, 182.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "display length will be 1/25 of the total audio file length"
 				}
 
@@ -25344,7 +25329,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3544.725806474685669, 1450.0, 182.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "display start will be 0*length, 1*length, 2*length, 3*length, etc."
 				}
 
@@ -25402,7 +25386,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3551.706642855314385, 1513.5, 162.0, 60.0 ],
-					"presentation_linecount" : 4,
 					"text" : "Off for better responsiveness\n\nOn if experiencing audio issues "
 				}
 
@@ -63289,7 +63272,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2892.383333333333212, 804.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "MIDI Octave Shift\n(wind contoller only)"
 				}
 
