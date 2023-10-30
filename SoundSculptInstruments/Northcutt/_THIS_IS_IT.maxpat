@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 34.0, 87.0, 1002.0, 420.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -34856,36 +34856,36 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "minsecmil.js",
-				"bootpath" : "/Volumes/Music 1/granulator files/Granulator II Project/code",
-				"patcherrelativepath" : "./Granulator II Project/code",
+				"bootpath" : "~/Documents/GitHub/MULE/SoundSculptInstruments/Northcutt",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml-gr-lfo.js",
-				"bootpath" : "/Volumes/Music 1/granulator files/Granulator II Project/code",
-				"patcherrelativepath" : "./Granulator II Project/code",
+				"bootpath" : "~/Documents/GitHub/MULE/SoundSculptInstruments/Northcutt",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml-gr-show.js",
-				"bootpath" : "/Volumes/Music 1/granulator files/Granulator II Project/code",
-				"patcherrelativepath" : "./Granulator II Project/code",
+				"bootpath" : "~/Documents/GitHub/MULE/SoundSculptInstruments/Northcutt",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.granulator.zoom120518.js",
-				"bootpath" : "/Volumes/Music 1/granulator files/Granulator II Project/code",
-				"patcherrelativepath" : "./Granulator II Project/code",
+				"bootpath" : "~/Documents/GitHub/MULE/SoundSculptInstruments/Northcutt",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.poly.granulator130120.maxpat",
-				"bootpath" : "/Volumes/Music 1/granulator files/Granulator II Project/patchers",
-				"patcherrelativepath" : "./Granulator II Project/patchers",
+				"bootpath" : "~/Documents/GitHub/MULE/SoundSculptInstruments/Northcutt",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
