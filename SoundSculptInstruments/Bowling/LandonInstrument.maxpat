@@ -272,7 +272,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1154.0, 1500.5, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "116"
 				}
 
 			}
@@ -1299,7 +1299,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1816.0, 1526.0, 50.0, 22.0 ],
-					"text" : "30"
+					"text" : "0"
 				}
 
 			}
@@ -1903,7 +1903,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2692.284964282971487, 493.0, 76.0, 76.0 ],
+					"patching_rect" : [ 2692.284964282971487, 493.0, 77.0, 76.0 ],
 					"text" : "set \"Small window size with smooth position oscillator\""
 				}
 
@@ -1911,12 +1911,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-172",
-					"linecount" : 9,
+					"linecount" : 8,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2598.0, 493.0, 75.0, 129.0 ],
+					"patching_rect" : [ 2598.0, 493.0, 77.0, 116.0 ],
 					"text" : "set \"Random position and window changes with random time intervals for both\""
 				}
 
@@ -1942,7 +1942,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2425.784964282971487, 493.0, 80.0, 102.0 ],
+					"patching_rect" : [ 2425.784964282971487, 493.0, 82.0, 102.0 ],
 					"text" : "set \"Random position changes with random time intervals and small window\""
 				}
 
@@ -2262,35 +2262,35 @@
 					"presentation_rect" : [ 1070.267540435990213, 33.896644592285156, 260.0, 132.663551419973373 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-377", "toggle", "int", 0, 5, "obj-378", "toggle", "int", 0, 5, "obj-360", "toggle", "int", 0, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 0, 5, "obj-381", "dial", "float", 0.0, 5, "obj-415", "dial", "float", 30.0, 5, "obj-423", "dial", "float", 49.0, 5, "obj-416", "dial", "float", 0.0, 5, "obj-417", "dial", "float", 0.0, 5, "obj-356", "dial", "float", 0.0, 5, "obj-396", "dial", "float", 0.0 ]
+							"data" : [ 5, "obj-377", "toggle", "int", 0, 5, "obj-378", "toggle", "int", 0, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 0, 5, "obj-381", "dial", "float", 0.0, 5, "obj-423", "dial", "float", 49.0, 5, "obj-416", "dial", "float", 0.0, 5, "obj-417", "dial", "float", 0.0, 5, "obj-356", "dial", "float", 0.0, 5, "obj-396", "dial", "float", 0.0 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-377", "toggle", "int", 0, 5, "obj-378", "toggle", "int", 1, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 0, 5, "obj-381", "dial", "float", 2895.0, 5, "obj-423", "dial", "float", 39.0, 5, "obj-356", "dial", "float", 114.0, 5, "obj-396", "dial", "float", 0.0 ]
+							"data" : [ 5, "obj-377", "toggle", "int", 0, 5, "obj-378", "toggle", "int", 1, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 0, 5, "obj-381", "dial", "float", 2895.0, 5, "obj-423", "dial", "float", 27.0, 5, "obj-416", "dial", "float", 0.0, 5, "obj-417", "dial", "float", 0.0, 5, "obj-356", "dial", "float", 114.0, 5, "obj-396", "dial", "float", 0.0 ]
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 5, "obj-377", "toggle", "int", 0, 5, "obj-378", "toggle", "int", 1, 5, "obj-360", "toggle", "int", 0, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 0, 5, "obj-381", "dial", "float", 0.0, 5, "obj-415", "dial", "float", 30.0, 5, "obj-423", "dial", "float", 55.0, 5, "obj-416", "dial", "float", 0.0, 5, "obj-417", "dial", "float", 0.0, 5, "obj-356", "dial", "float", 104.0, 5, "obj-396", "dial", "float", 0.0 ]
+							"data" : [ 5, "obj-377", "toggle", "int", 0, 5, "obj-378", "toggle", "int", 1, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 0, 5, "obj-381", "dial", "float", 0.0, 5, "obj-423", "dial", "float", 75.0, 5, "obj-416", "dial", "float", 0.0, 5, "obj-417", "dial", "float", 0.0, 5, "obj-356", "dial", "float", 104.0, 5, "obj-396", "dial", "float", 0.0 ]
 						}
 , 						{
 							"number" : 4,
-							"data" : [ 5, "obj-377", "toggle", "int", 1, 5, "obj-378", "toggle", "int", 1, 5, "obj-360", "toggle", "int", 0, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 0, 5, "obj-381", "dial", "float", 280.0, 5, "obj-415", "dial", "float", 30.0, 5, "obj-423", "dial", "float", 1.0, 5, "obj-416", "dial", "float", 0.0, 5, "obj-417", "dial", "float", 0.0, 5, "obj-356", "dial", "float", 104.0, 5, "obj-396", "dial", "float", 0.0 ]
+							"data" : [ 5, "obj-377", "toggle", "int", 1, 5, "obj-378", "toggle", "int", 1, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 0, 5, "obj-381", "dial", "float", 1663.0, 5, "obj-423", "dial", "float", 98.0, 5, "obj-416", "dial", "float", 0.0, 5, "obj-417", "dial", "float", 0.0, 5, "obj-356", "dial", "float", 104.0, 5, "obj-396", "dial", "float", 0.0 ]
 						}
 , 						{
 							"number" : 5,
-							"data" : [ 5, "obj-377", "toggle", "int", 0, 5, "obj-378", "toggle", "int", 1, 5, "obj-360", "toggle", "int", 0, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 1, 5, "obj-381", "dial", "float", 2900.0, 5, "obj-415", "dial", "float", 30.0, 5, "obj-423", "dial", "float", 38.0, 5, "obj-416", "dial", "float", 0.0, 5, "obj-417", "dial", "float", 0.0, 5, "obj-356", "dial", "float", 113.0, 5, "obj-396", "dial", "float", 0.0 ]
+							"data" : [ 5, "obj-377", "toggle", "int", 0, 5, "obj-378", "toggle", "int", 1, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 1, 5, "obj-381", "dial", "float", 2900.0, 5, "obj-423", "dial", "float", 34.0, 5, "obj-416", "dial", "float", 0.0, 5, "obj-417", "dial", "float", 0.0, 5, "obj-356", "dial", "float", 113.0, 5, "obj-396", "dial", "float", 0.0 ]
 						}
 , 						{
 							"number" : 6,
-							"data" : [ 5, "obj-377", "toggle", "int", 1, 5, "obj-378", "toggle", "int", 1, 5, "obj-360", "toggle", "int", 0, 5, "obj-391", "toggle", "int", 1, 5, "obj-392", "toggle", "int", 1, 5, "obj-381", "dial", "float", 1176.0, 5, "obj-415", "dial", "float", 30.0, 5, "obj-423", "dial", "float", 22.0, 5, "obj-416", "dial", "float", 0.0, 5, "obj-417", "dial", "float", 0.0, 5, "obj-356", "dial", "float", 80.0, 5, "obj-396", "dial", "float", 196.0 ]
+							"data" : [ 5, "obj-377", "toggle", "int", 1, 5, "obj-378", "toggle", "int", 1, 5, "obj-391", "toggle", "int", 1, 5, "obj-392", "toggle", "int", 1, 5, "obj-381", "dial", "float", 1274.0, 5, "obj-423", "dial", "float", 70.0, 5, "obj-416", "dial", "float", 0.0, 5, "obj-417", "dial", "float", 0.0, 5, "obj-356", "dial", "float", 80.0, 5, "obj-396", "dial", "float", 461.0 ]
 						}
 , 						{
 							"number" : 7,
-							"data" : [ 5, "obj-377", "toggle", "int", 0, 5, "obj-378", "toggle", "int", 0, 5, "obj-360", "toggle", "int", 0, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 0, 5, "obj-381", "dial", "float", 0.0, 5, "obj-415", "dial", "float", 30.0, 5, "obj-423", "dial", "float", 66.0, 5, "obj-416", "dial", "float", 58.0, 5, "obj-417", "dial", "float", 0.0, 5, "obj-356", "dial", "float", 112.0, 5, "obj-396", "dial", "float", 0.0 ]
+							"data" : [ 5, "obj-377", "toggle", "int", 0, 5, "obj-378", "toggle", "int", 0, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 0, 5, "obj-381", "dial", "float", 0.0, 5, "obj-423", "dial", "float", 60.0, 5, "obj-416", "dial", "float", 58.0, 5, "obj-417", "dial", "float", 0.0, 5, "obj-356", "dial", "float", 112.0, 5, "obj-396", "dial", "float", 0.0 ]
 						}
 , 						{
 							"number" : 8,
-							"data" : [ 5, "obj-377", "toggle", "int", 0, 5, "obj-378", "toggle", "int", 0, 5, "obj-360", "toggle", "int", 0, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 0, 5, "obj-381", "dial", "float", 0.0, 5, "obj-415", "dial", "float", 30.0, 5, "obj-423", "dial", "float", 61.0, 5, "obj-416", "dial", "float", 100.0, 5, "obj-417", "dial", "float", 47.0, 5, "obj-356", "dial", "float", 7.0, 5, "obj-396", "dial", "float", 0.0 ]
+							"data" : [ 5, "obj-377", "toggle", "int", 0, 5, "obj-378", "toggle", "int", 0, 5, "obj-391", "toggle", "int", 0, 5, "obj-392", "toggle", "int", 0, 5, "obj-381", "dial", "float", 0.0, 5, "obj-423", "dial", "float", 10.0, 5, "obj-416", "dial", "float", 100.0, 5, "obj-417", "dial", "float", 47.0, 5, "obj-356", "dial", "float", 2.0, 5, "obj-396", "dial", "float", 0.0 ]
 						}
  ]
 				}
@@ -2380,7 +2380,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-241",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -25856,7 +25855,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 235.0, 588.0, 50.0, 22.0 ],
-					"text" : "49"
+					"text" : "78"
 				}
 
 			}
@@ -65914,15 +65913,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-356", 0 ],
-					"order" : 7,
-					"source" : [ "obj-170", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-360", 0 ],
-					"order" : 8,
+					"order" : 6,
 					"source" : [ "obj-170", 0 ]
 				}
 
@@ -65954,7 +65945,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-391", 0 ],
-					"order" : 10,
+					"order" : 8,
 					"source" : [ "obj-170", 0 ]
 				}
 
@@ -65962,14 +65953,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-392", 0 ],
-					"order" : 11,
-					"source" : [ "obj-170", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-396", 0 ],
 					"order" : 9,
 					"source" : [ "obj-170", 0 ]
 				}
@@ -65977,8 +65960,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-415", 0 ],
-					"order" : 3,
+					"destination" : [ "obj-396", 0 ],
+					"order" : 7,
 					"source" : [ "obj-170", 0 ]
 				}
 
@@ -65986,7 +65969,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-416", 0 ],
-					"order" : 5,
+					"order" : 4,
 					"source" : [ "obj-170", 0 ]
 				}
 
@@ -65994,7 +65977,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-417", 0 ],
-					"order" : 6,
+					"order" : 5,
 					"source" : [ "obj-170", 0 ]
 				}
 
@@ -66002,7 +65985,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-423", 0 ],
-					"order" : 4,
+					"order" : 3,
 					"source" : [ "obj-170", 0 ]
 				}
 
