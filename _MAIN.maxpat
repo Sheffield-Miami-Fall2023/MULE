@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 62.0, 1372.0, 804.0 ],
+		"rect" : [ 34.0, 62.0, 1354.0, 804.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,105 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595186999999999,
+					"id" : "obj-74",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 969.5, 1015.0, 232.0, 21.0 ],
+					"text" : "script sendbox soundsculpt-evan hidden $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1427.0, 1158.0, 29.5, 22.0 ],
+					"text" : "kill"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1427.0, 1131.0, 34.0, 22.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1354.0, 1131.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1354.0, 1158.0, 71.0, 22.0 ],
+					"text" : "enable $1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1354.0, 1182.0, 51.0, 22.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"hidden" : 1,
+					"id" : "obj-73",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "SoundSculpt-Evan.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 1354.0, 1206.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 15.0, 800.0, 800.0 ],
+					"varname" : "soundsculpt-evan",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-68",
 					"maxclass" : "message",
@@ -83,7 +182,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1474.0, 1158.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1630.0, 1158.0, 29.5, 22.0 ],
 					"text" : "kill"
 				}
 
@@ -95,7 +194,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1474.0, 1131.0, 34.0, 22.0 ],
+					"patching_rect" : [ 1630.0, 1131.0, 34.0, 22.0 ],
 					"text" : "sel 0"
 				}
 
@@ -108,7 +207,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1401.0, 1131.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1557.0, 1131.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -119,7 +218,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1401.0, 1158.0, 71.0, 22.0 ],
+					"patching_rect" : [ 1557.0, 1158.0, 71.0, 22.0 ],
 					"text" : "enable $1 1"
 				}
 
@@ -131,7 +230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1401.0, 1182.0, 51.0, 22.0 ],
+					"patching_rect" : [ 1557.0, 1182.0, 51.0, 22.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -143,6 +242,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-64",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -152,7 +252,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1401.0, 1206.0, 128.0, 128.0 ],
+					"patching_rect" : [ 1557.0, 1206.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 800.0, 800.0 ],
 					"varname" : "soundsculpt-landon",
@@ -754,7 +854,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-13",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -1258,6 +1357,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
+					"order" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"order" : 1,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -1275,6 +1383,13 @@
 					"destination" : [ "obj-65", 0 ],
 					"order" : 1,
 					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -1445,8 +1560,31 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"order" : 0,
+					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"order" : 1,
+					"source" : [ "obj-69", 0 ]
 				}
 
 			}
@@ -1466,8 +1604,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"source" : [ "obj-73", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"source" : [ "obj-74", 0 ]
 				}
 
 			}
@@ -1949,11 +2115,104 @@
 			"obj-64::obj-76" : [ "number", "number", 0 ],
 			"obj-64::obj-84" : [ "umenu[2]", "umenu[2]", 0 ],
 			"obj-7" : [ "main", "main", 0 ],
+			"obj-73::obj-125" : [ "dropsample", "dropsample", 1 ],
+			"obj-73::obj-141" : [ "Volume<Vel", "Volume<Vel", 0 ],
+			"obj-73::obj-166" : [ "kslider[1]", "Hold", 0 ],
+			"obj-73::obj-168" : [ "Help", "help", 0 ],
+			"obj-73::obj-197" : [ "Vocies", "Voices", 0 ],
+			"obj-73::obj-35::obj-86" : [ "zoom_factor", "live.numbox", 2 ],
+			"obj-73::obj-41" : [ "View", "View", 0 ],
+			"obj-73::obj-71::obj-10" : [ "VolumeEnvRelease", "Release", 0 ],
+			"obj-73::obj-71::obj-101" : [ "WindowSpike", "Spike", 0 ],
+			"obj-73::obj-71::obj-103" : [ "WindowSymmetry", "AmpMode", 0 ],
+			"obj-73::obj-71::obj-105" : [ "Pos<LFO", "Pos<LFO", 0 ],
+			"obj-73::obj-71::obj-106" : [ "AEnvAmount", "AEnv", 0 ],
+			"obj-73::obj-71::obj-11" : [ "VolumeEnvSustain", "Sustain", 0 ],
+			"obj-73::obj-71::obj-112" : [ "FilePos<Rnd", "Pos<Rnd", 0 ],
+			"obj-73::obj-71::obj-117" : [ "Grain<Random", "GrainRandom", 0 ],
+			"obj-73::obj-71::obj-119" : [ "Tune<Vel", "PitchVel", 0 ],
+			"obj-73::obj-71::obj-12" : [ "ZoomOut", "ZoomOut", 0 ],
+			"obj-73::obj-71::obj-121" : [ "ZoomShow", "ZoomShow", 0 ],
+			"obj-73::obj-71::obj-130" : [ "PosLFOCycle", "Cycle", 0 ],
+			"obj-73::obj-71::obj-138" : [ "BResonance", "Q", 0 ],
+			"obj-73::obj-71::obj-150" : [ "PosLFO<Key", "PosLFO<Key", 0 ],
+			"obj-73::obj-71::obj-152" : [ "PosLFOWave", "PosLFOWave", 0 ],
+			"obj-73::obj-71::obj-156" : [ "BEnvAmount", "BEnv", 0 ],
+			"obj-73::obj-71::obj-160" : [ "BFilterOn", "BFilterOn", 0 ],
+			"obj-73::obj-71::obj-166" : [ "PosLFOOn", "PosLFOOn", 0 ],
+			"obj-73::obj-71::obj-173" : [ "PosLFOTrigger", "PosLFOTrigger", 0 ],
+			"obj-73::obj-71::obj-179" : [ "AmpVoidResidual", "Residual", 0 ],
+			"obj-73::obj-71::obj-181" : [ "AMOn", "AMOn", 0 ],
+			"obj-73::obj-71::obj-184" : [ "FilePos<Key", "Pos<Key", 0 ],
+			"obj-73::obj-71::obj-195" : [ "FM<Vel", "FM<Vel", 0 ],
+			"obj-73::obj-71::obj-201" : [ "FilterEnvDecay", "Decay", 0 ],
+			"obj-73::obj-71::obj-202" : [ "FilterEnvAttack", "Attack", 0 ],
+			"obj-73::obj-71::obj-207" : [ "FilterEnvRelease", "Release", 0 ],
+			"obj-73::obj-71::obj-209" : [ "FilterEnvSustain", "Sustain", 0 ],
+			"obj-73::obj-71::obj-211" : [ "ScanFactor<Key", "ScanFactor<Key", 0 ],
+			"obj-73::obj-71::obj-212" : [ "ScanDistance", "ScanDistance", 0 ],
+			"obj-73::obj-71::obj-218" : [ "GrainSize", "Grain", 0 ],
+			"obj-73::obj-71::obj-219" : [ "ZoomIn", "ZoomIn", 0 ],
+			"obj-73::obj-71::obj-22" : [ "Tune", "Tune", 0 ],
+			"obj-73::obj-71::obj-227" : [ "ScanTime", "Time", 0 ],
+			"obj-73::obj-71::obj-230" : [ "ZoomAll", "All", 0 ],
+			"obj-73::obj-71::obj-235" : [ "FM<Key", "FM<Key", 0 ],
+			"obj-73::obj-71::obj-25" : [ "FMAmount", "FM", 0 ],
+			"obj-73::obj-71::obj-257" : [ "Write", "Write", 0 ],
+			"obj-73::obj-71::obj-259" : [ "VZoom", "VZoom", 0 ],
+			"obj-73::obj-71::obj-266" : [ "Grab", "Grab", 0 ],
+			"obj-73::obj-71::obj-27" : [ "FMFreq", "Freq", 0 ],
+			"obj-73::obj-71::obj-28" : [ "ScanCurve", "Curve", 0 ],
+			"obj-73::obj-71::obj-282" : [ "SpraySlope", "SpraySlope", 0 ],
+			"obj-73::obj-71::obj-283" : [ "SpraySign", "SpraySign", 0 ],
+			"obj-73::obj-71::obj-30" : [ "TuneFine", "FineTune", 0 ],
+			"obj-73::obj-71::obj-31" : [ "FMOn", "FMOn", 0 ],
+			"obj-73::obj-71::obj-38" : [ "SprayOn", "SprayOn", 0 ],
+			"obj-73::obj-71::obj-39" : [ "Tune<Rnd", "TuneRnd", 0 ],
+			"obj-73::obj-71::obj-4" : [ "FilePos", "FilePos", 0 ],
+			"obj-73::obj-71::obj-41" : [ "FluxusMode", "FluxusMode", 0 ],
+			"obj-73::obj-71::obj-56" : [ "AResonance", "Q", 0 ],
+			"obj-73::obj-71::obj-6" : [ "VolumeEnvAttack", "Attack", 0 ],
+			"obj-73::obj-71::obj-65" : [ "FM<AuxEnv", "FMEnv", 0 ],
+			"obj-73::obj-71::obj-66" : [ "FluxusAmount", "Amount", 0 ],
+			"obj-73::obj-71::obj-67" : [ "AFreq<Vel", "AFreq<Vel", 0 ],
+			"obj-73::obj-71::obj-69" : [ "ScanOn", "ScanOn", 0 ],
+			"obj-73::obj-71::obj-7" : [ "VolumeEnvDecay", "Decay", 0 ],
+			"obj-73::obj-71::obj-70" : [ "Spray", "Spray", 0 ],
+			"obj-73::obj-71::obj-73" : [ "Grain<Key", "Grain<Key", 0 ],
+			"obj-73::obj-71::obj-74" : [ "LFOSlow", "LFOSlow", 0 ],
+			"obj-73::obj-71::obj-75" : [ "FMAmt<Key", "FMAmt<Key", 0 ],
+			"obj-73::obj-71::obj-77" : [ "LiveInOn", "LiveIn", 3 ],
+			"obj-73::obj-71::obj-78" : [ "BFreq<Vel", "BFreq<Vel", 0 ],
+			"obj-73::obj-71::obj-79" : [ "ScanFactor<Vel", "ScanFactor<Vel", 0 ],
+			"obj-73::obj-71::obj-8" : [ "AGain", "Gain", 0 ],
+			"obj-73::obj-71::obj-80" : [ "AFilterOn", "AFilterOn", 0 ],
+			"obj-73::obj-71::obj-81" : [ "GrainSpread", "GrainSpread", 0 ],
+			"obj-73::obj-71::obj-82" : [ "BGain", "Gain", 0 ],
+			"obj-73::obj-71::obj-83" : [ "Tune<Key", "Tune<Key", 0 ],
+			"obj-73::obj-71::obj-84" : [ "PosLFOPhase", "PosLFOPhase", 0 ],
+			"obj-73::obj-71::obj-88" : [ "WindowShape", "WShape", 0 ],
+			"obj-73::obj-71::obj-89" : [ "AFrequency", "Freq", 0 ],
+			"obj-73::obj-71::obj-90" : [ "weblink", "weblink", 0 ],
+			"obj-73::obj-71::obj-91" : [ "BFrequency", "Freq", 0 ],
+			"obj-73::obj-71::obj-92" : [ "BFreq<Key", "BFreq<Key", 0 ],
+			"obj-73::obj-71::obj-93" : [ "AFreq<Key", "AFreq<Key", 0 ],
+			"obj-73::obj-71::obj-97" : [ "AFilterType", "AFilterType", 0 ],
+			"obj-73::obj-71::obj-98" : [ "Grain<LFO", "GrainLFO", 0 ],
+			"obj-73::obj-71::obj-99" : [ "BFilterType", "BFilterType", 0 ],
+			"obj-73::obj-90" : [ "Volume", "Volume", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-73::obj-166" : 				{
+					"parameter_longname" : "kslider[1]"
 				}
 
 			}
@@ -1990,6 +2249,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "SoundSculpt-Evan.maxpat",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "SoundSculpt-Landon.maxpat",
 				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
 				"patcherrelativepath" : ".",
@@ -2013,6 +2279,41 @@
 , 			{
 				"name" : "link.beat.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "minsecmil.js",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ml-gr-lfo.js",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ml-gr-show.js",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ml.granulator.zoom120518.js",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ml.poly.granulator130120.maxpat",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
