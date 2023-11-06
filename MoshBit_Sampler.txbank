@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tx:bank xmlns:tx="http://www.tx16wx.com/3.0/bank" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tx16wx.com/3.0/ bank" tx:created-by="30601" tx:quality="Default"
+   tx:name="MoshBit_Sampler">
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:xctrl tx:offset="0" tx:ctrl="Bank Select"/>
+   <tx:midi tx:use-bank-select="1" tx:program-change-mode="Performance"/>
+   <tx:wave tx:path="MoshBitSamples/Mario_Kart.wav">
+      <tx:loop tx:end="18723" tx:start="2063" tx:mode="Forward" tx:name="A"/>
+      <tx:loop tx:end="36436" tx:start="18475" tx:mode="Forward" tx:name="B"/>
+      <tx:loop tx:end="50737" tx:start="36436" tx:mode="Forward" tx:name="C"/>
+      <tx:loop tx:end="60865" tx:start="50744" tx:mode="Forward" tx:name="Drums1"/>
+      <tx:loop tx:end="67015" tx:start="60092" tx:mode="Forward" tx:name="Drums2"/>
+      <tx:loop tx:end="90624" tx:start="72973" tx:mode="Forward" tx:name="D"/>
+   </tx:wave>
+   <tx:program tx:path="MoshBit_MK.txprog"/>
+   <tx:performance tx:active="true" tx:path="MoshBit.txperf"/>
+</tx:bank>

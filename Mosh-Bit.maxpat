@@ -40,6 +40,63 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 178.5, 526.0, 268.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 479.0, 94.0, 266.0, 20.0 ],
+					"text" : "open sampler, load \"MoshBit_Sampler\" bank",
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 324.0, 155.0, 140.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 605.0, 32.0, 140.0, 20.0 ],
+					"text" : "open TX16Wx website",
+					"textoncolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 324.0, 202.5, 244.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://www.tx16wx.com"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 324.0, 120.0, 414.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 331.0, 10.0, 414.0, 20.0 ],
+					"text" : "You must install the free TX16Wx Software Sampler before using this patch.",
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -84,10 +141,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 132.0, 256.0, 150.0, 20.0 ],
+					"patching_rect" : [ 65.0, 66.0, 93.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 36.0, 150.0, 20.0 ],
-					"text" : "last update 10/24"
+					"text" : "last update 11/5"
 				}
 
 			}
@@ -99,7 +156,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 261.0, 208.0, 24.0 ],
+					"patching_rect" : [ 65.0, 34.0, 208.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 10.0, 208.0, 24.0 ],
 					"text" : "Mosh Bit"
@@ -118,7 +175,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 645.0, 116.0, 100.0, 20.0 ],
 					"text" : "Open Sampler",
-					"textoncolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
+					"textoncolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
 				}
 
 			}
@@ -378,7 +435,7 @@
 			}
 , 			{
 				"box" : 				{
-					"autosave" : 1,
+					"autosave" : 0,
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -390,75 +447,11 @@
 					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
 					"patching_rect" : [ 94.0, 655.0, 92.5, 22.0 ],
 					"save" : [ "#N", "vst~", "loaduniqueid", 0, "TX16Wx", ";" ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "vst~",
-							"parameter_shortname" : "vst~",
-							"parameter_type" : 3
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"pluginname" : "TX16Wx.vstinfo",
-							"plugindisplayname" : "3.6.0a 6855.1106",
-							"pluginsavedname" : "",
-							"pluginsaveduniqueid" : 1415065910,
-							"version" : 1,
-							"isbank" : 0,
-							"isbase64" : 1,
-							"blob" : "7594.CMlaKA....fQPMDZ....APEVwXC..........5TY2ABTkImYuIWag41XkA...................zga1UlbyQ....Ph2A..2ElckgK...fYowVYJB...TmbrAPX....lkFakoyKu7RUyUlby8xbnUlYlkVYuPza24FauEFYy8hYo4VXrUhLvDVcjk1akHCLyEVavwVYy8RP0QVXikFc4UhLvjlakHCLAUGYgMVZzkWIx.yTg0FbrUVIx.SLtbWX1A.co0VYH.....PhEUm4FX..ykldkg....f.s2.......3VXsUVG....AUGYgMVZzkGHo4FHAUGYgMVZzkGHSEVavwVYfDC.vI2YsYc...fYowVY7....TmbrA.E....NU1ckHCLPI2amIWXs4Bc3AmbucFco0VYH...............ykldkg...............PVXzElhA...uu6u77CdswFH1Ulbyk1at0iHw3BLh.RYtM1ajklam0iHUQkQsfiHfLGcg4FYgw1atUVOh31ah7iOJvCc3oCbx81YxEVaffWar41b5PGd8HBZzQGb57xK2c2ctPGdwXyc34xXu01Ky3BLu.mbuclbg0lHffWar41b5f2bo0iHnQGcvoyKub2c24xcy3xaxc1Kx.CLw7BVMwzTigVYsEVKo41bzElaiUlHJ.BHff2booybigVYsEFSuMVXzk1at0iHnQGcvoyKub2c24Bc3EiM2gmKi8VauLiKv7BHvI2amIWXsIBHzgmNiIWYgQWYj0hX40iHy.iMvDiHfPGd5DWcgwVZzkWOhPTYlEVcrQmHJ.BHfPGd53VXsUVOh3TY2ABTx81YxEVah3iBf.BH7PGd5H1a04FYyABc3oCZocFZsXWYr0iHwHyMh.Bc3oCZocFZsrVY40iHGkiHfPGd5v1a20hckwVOh.iHfPGd5v1a20xZkkWOhLTKwHxK9n.OuPGd5.mbuclbg0lOJ.mbm0FHG...lkFak4G...PcxwF.VA...XVZrUlNu7xKUMWYxM2KygVYlYVZk8xQoQGR0I1KSgVYlYVZkwFYszTZg0VZsXTXrwlLvHyLuzTULUzKM81bnITZz0BUXEiMWgWKvEFciglKzgGbx81YzkVakg....Ppn.gOEffA.LWZ5UFB....wa.........YgQWXRZ...79t+xyO30FafXWYxMWZu4VOhDiKvHBHk41XuQVZtcVOhTEUF0BNh.xbzElajEFau4VY8HhauIxO9n.OzgmNvI2amIWXsABdswlayoCc30iHnQGcvoyKub2c24Bc3EiM2gmKi8VauLiKv7Bbx81YxEVah.BdswlayoCdykVOhfFczAmNu7xc2cmK2MiKuI2YuHCLvDyKX0DSSMFZk0VXsjlayQWXtMVYhn.Hf.BdyklNyMFZk0VXL81XgQWZu4VOhfFczAmNu7xc2cmKzgWL1bGdtL1as8xLt.yKf.mbuclbg0lHfPGd5LlbkEFckQVKhkWOhLCL1.SLh.Bc3oSb0EFaoQWd8HBQkYVX0wFchn.Hf.Bc3oiag0VY8HRSuMGZBkFcsPEVwXyU30BbgQ2XnIhOJ.BHfvCc3oycgYWYfPGd5jFY8HBLh.Bc3oCbgQGZ8HRZjgmNu7xHvHxK9n.Hf.BOzgmNh8VctQ1bfPGd5fVZmgVK1UFa8HRLxbiHfPGd5fVZmgVKqUVd8HxQ4HBHzgmNr81csXWYr0iHvHBHzgmNr81csrVY40iHC0RLh7hOJ.BHfvCc3oybuUmajMGZgAWYfPGd5TmaoM2at0xX4MFaoMVKyAmbkEFY8HhYgw1bkIBHzgmN04VZy8lasLGbxUVXj0iHvLDch.Bc3oSctk1bu4VKjUFbzgVOhDCLvThHfPGd5TmaoM2at0Bbg4VOhDCLvThHJ.BHf.BHfPGd5bFaoQVYsz1ajUVOhfTYrQlHfPGd5.2cs0iHvThHfPGd5X2arUWak0iHv.BYBIBHzgmNoQVOhXiXjQSN3XSLsXiX1PVKzTVMxzBNjQiLsPVLkkiXvP1L3TFN3HhBf.BHf.BHzgmN04VZy8lasLGcgIGc8HBLsMmHfPGd53VXsUVOh3TY2AxTuUmajIBHzgmN04VZy8la8HRLh.Bc3oCbg4VOh.SIh3iBf.BHf.BH7PGd5DVYmABc3oCakYWYrISOh.CHjIjHfPGd5vVY1UFawziHv.BYBIBHzgmNxUFakE1bk0xbnEFbk0iHsTCLkHBHzgmNxUFakE1bk0iH0.iKvz1bh.Bc3oCYkMVX4ISKygVXvUVOhzRMvThHJ.BHf.BHf.BHfPGd5LWcyQWXo4VOh.CHjIjHfPGd5PVYiEVdxziH0.CLsMmHfPGd5PVYiEVdwzxbnEFbk0iHsTCLkHBHzgmNjU1XgkWL8HRMv.SayIBHzgmNgQGcgM1ZsLGZgAWY8HRK0.SIhn.Hf.BHf.BHf.Bc3oSXzQWXisVOh.SayIxK9n.Hf.BHf.BOzgmNyUlajABc3oCakYWYr0iHv.BYBIxK9n.Hf.BHf.BOzgmNyUlajABc3oCakYWYr0iHv.BYBIxK9n.Hf.BHf.BOzgmNyUlajABc3oCakYWYr0iHv.BYBIxK9n.Hf.BHf.BOzgmNs8FY0wVXzk1at8hOJ.BHfvyKzgmNy8VctQ1bnEFbk4iBf.BH7PGd5blbuUGbfPGd5L2a04FYygVXvUVOhXiXjQSN3XSLsXiX1PVKzTVMxzBNjQiLsPVLkkiXvP1L3TFN3HBHzgmNi8FauIWOhjWYrw1a2IBHzgmNyMVXrUVOhDCLvHBHzgmNuUGcvUGc8HRKsHhBf.BHf.BHzgmNt8FckAmbo8VOhvTXyQmHfPGd5DWcgwVZzkWOhPTYlEVcrQmHfPGd5.GagkmXgM1Z8HhTkMWXsAGakIBHzgmNv8Fa401ajUVOh.0arkmHfPGd5.GagkWauQVY8HhSuIWagwlHfPGd5XVZtUVOh.iHJ.BHf.BHfPGd5L1agI2bk0iHvHBHzgmNig1aqUVKmI2a0AWOh.iHfPGd5.WXt0iHvThHfPGd5X2arUWak0iHv.BYBIBHzgmNtEVak0iHNU1cfbjbuUGbh3iBf.BHf.BH7PGd5HWYmk1atABc3oiYo4VY8HBLh.Bc3oibu8Fc8HxP0HBHzgmN2Elck0iHvHBHzgmNvEla8HBLkHBHzgmNgQGck4VcgQWZu4VOh.CHjIjHfPGd5z1ajUVOhPjQDIhOJ.BHf.BHf.BHfvCc3oiXuUmajMGHzgmNnk1Yn0hckwVOhDiL2HBHzgmNnk1Yn0xZkkWOhLzH1HBHzgmNr81csXWYr0iHvHBHzgmNr81csrVY40iHCUiHu3iBf.BHf.BH77Bc3oibkcVZu4lOJ.BHfvyKzgmNmI2a0AmOJvyKzgmNvI2amIWXs4iBvUlbloz...fYowVY.A...TmbrA.F....NU1ckHCLPUlbl8lbsElaiUlKzgGbkImYzkVakg...............LWZ5UFB...............YgQWX5K...79t+xyO30FafXWYxMWZu4VOhDiKvHBHk41XuQVZtcVOhTEUF0BNh.xbzElajEFau4VY8HhauIxO9n.OzgmNvUlbl8lbsElaiUFH30FatMmNzgWOhfFczAmNu7xc2cmKzgWL1bGdtL1as8xLt.yKvUlbl8lbsElaiUlHffWar41b5f2bo0iHnQGcvoyKub2c24xcy3xaxc1Kx.CLw7BVMwzTigVYsEVKo41bzElaiUlHJ.BHff2booybigVYsEFSuMVXzk1at0iHnQGcvoyKub2c24Bc3EiM2gmKi8VauLiKv7BHvUlbl8lbsElaiUlHfPGd5LlbkEFckQVKhkWOhLCL1.SLh.Bc3oiag0VY8HhSkcGHPUlbl8lbsElaiUlH9n.Hf.BOzgmNyw1azABc3oyXnElatUFa8HRLh.Bc3oCbx81YxEVa8HRZjgmNu7xHwHBHzgmNi8FauIWOhHFa0UlHfPGd57VczAWcz0iHOUGcfDiHfPGd53VXsUVOhLDZvDiH9n.Hf.BHf.BOzgmN18Fa00VYfPGd5XWXrUWY8HBLfPlPh7hOJ.BHf.BHfvCc3oCbg4FHzgmN1EFa0UVOh.SIh7hOJ.BHf.BHfvCc3oCcxElayA2ayUFHzgmN1EFa0UVOh.iHu3iBf.BHf.BH7PGd5PVYzUmakABc3oicgwVck0iHvHxK9n.Hf.BHf.BOzgmNyUlaj4iBf.BHf.BHf.BH7PGd5vVY1UFafPGd5XWXrUWY8HBLfPlPh7hOJ.BHf.BHfvyKzgmNyUlaj4iBf.BHf.BH7PGd5LWYtQlOJ.BHf.BHf.BHfvCc3oCakYWYrABc3oicgwVck0iHv.BYBIxK9n.Hf.BHf.BOuPGd5LWYtQlOJ.BHf.BHfvCc3oybk4FY9n.Hf.BHf.BHf.BOzgmNrUlckwFHzgmN1EFa0UVOh.CHjIjHu3iBf.BHf.BH77Bc3oybk4FY9n.Hf.BOuPGd5LGauQmOJvyKzgmNvUlbl8lbsElaiUlOJTWZyQmPP...MkzTEo.....QAQUPA.......MkjSIo.....QAQUPA.......MUDQIo.....QAQUPA....D..LEjTGo.....QAQUPA.......METRBo.....QAQUPA....D..SUDUBo.....QAQUPA.......FgETBo.....QAQUPA.......FQUPBAG....QAQUPA....D..FkDSE4E....QAQUPVA...TkTLAfE....lkFakoyKu7RUyUlby8xbnUlYlkVYuXTRTkEB....++++++++++OUAIDSf.................................Sc.A......PBHPEQTRTQiC...QAQUPP............UFP.......pDBjQXAUPn....PTPTEDH..............................................vTLM0Pj2...PTPTEDH................................r.IP.......lDBzTLAUPz1...PTPTED.....SwjUIQZC...QAQUP.A...........lEP.......fkAD.......XV.A......PJGP.......bxAD.......Hf.A......fSGP..........vTL8DUzA...PTPTED.....FIDLvn.....QAQUPA.......FIDLwn.....QAQUPA.......FIDLxn.....QAQUPA....D..FIDLyn.....QAQUPA.......FIDLzn.....QAQUPA.......FIDL0n.....QAQUPA.......AAUPNg.....QAQUP.....bDTA4jLA...DEDUAA....vSKMUQJ....PTPTET...........f..D...PTPTEDH..............................................vQLMEUPC...PTPTEDx....C8DSSAJ............L.A........CP................................................................................................................................................................................................S8jTTA....vTEwTQP.........................vRSUDQH....PTPTED.....RAUPNog....QAQUPX............bCP........nAD.......bT.Q0SLIjp....DEDUAA....PSFkDVJ....PTPTET.......PSVUDSJ....PTPTET.......PSRUjUJ....PTPTET.......PPMEDTJ....PTPTET.....A.fPNQzTJ....PTPTET.....A..SO8DTJ....PTPTET.......PPPwTVJ....PTPTET.......PPLwzQJ....PTPTET.......vQRkDQJ....PTPTET.....A.....f..A...PTPTEDN....Z8zSMg..........A....7jQFMEH................................38HP.......3kAD...f.3C...PTPTEDH................................38HP........HAjTLMEUHC...PTPTEDv....C8DSSgJ............L.8kCKX5YDPDPd4vBldFACAjWNrfomQ.Q.4kCKX5YDLDPd4vBldFAGAjWNrfomQnQ.4kCKX5YDbDPc4vBldFgFADaoPuU4KAR.QDnKJINsbDPOIZ.smzYhATWNrfomQvQ.wkCKX5YDFDPa4vBldFgDADziqbsnh.S.szC0EBHBmDPDkDD0h0jIADQ6f6GjngQ.oFT2XdCFVDP1aDvs58bEAzTOIEU.....LUQLUD.....WEDTAYxA...QAQUPRF...........bCP.......HhAD.......PW.8++++++++++yAGasgP...v6696VGw1ahEFacovPu4Fcx8FaHkVOBEiBC8lazI2arwza8LTLJLjbuM2blEFYk0SLv.SIJbjbuUGbNEVak0ydB0mBLUlckw1b8.iBL81av0iYgw1bkoPSgAGRo0yQ4nPSgAGSu0yPxn.ToQ2Xn0iYgw1bkofTkMWcrQGU4AWY8zTXzIWZiU1bJLUXsAGak4TXsUVO6ITees2R880dV02W6ASeJLUZtcFaksTY40SLJL0a0I2Xk0yTkwVYiQWYjAxcgYWYyo.UnIWYyg1arQVOsPCLfPlPJPkbo0VOlEFayUlBVElboEFco8lay0SLJfUKggWZy0SKsnvVPIWYyUFccofSg0VY8nvcyIGcMA...79t+t0Qr8lXgwVWJ3Tcs8jbjUlbo41Y8LiBOIGYkIGL83zatUlBOIGYkIWL83zatUlBOIGYkImL83zatUlBaAkbkMWYz0kBNEVak0iB.b2XtQGA.........vzSVwjB....DEDUAE.......LkSAAkB....DEDUAE.......vzSOAkB....DEDUAE.......DDTLkkB....DEDUAE....P..bjTIQjB....DEDUAE....P..bUPEQDP....DEDUAgC...fVO8TSH...............OYjQSAB..............................................bUPTEj3D...DEDUAg...............bUPLMEv....DEDUAAB..............................................bESSQEj....DEDUAgH...vPOwzTvA............................................CP...................L.A........CP...................L.A..................HAD........R.A.......fDP........HAzTOIEU.....LUQLUD.....L8DSSAJ....QAQUPf...............................................LwzTTAG....QAQUPnA...LzSLMET..................................CP...................L.A........CP...................L.A....................vTOIEU.....LUQLUD.....SETSPo0....QAQUP.....zzSDAiB....DEDUAE....P..zzSDEiB....DEDUAE.......zzSDIiB....DEDUAE.......HkQN8jB....DEDUAE....P..bTPXACC....DEDUAM....fUkwF.GEDVwv.....QAQUPD....3zatUVPLETVJ....PTPTET........SDMEUJ....PTPTET.......vQHkzRP....PTPTEDB....WA........vQHkDLP....PTPTEDB....+A........vQHkTLP....PTPTEDB....+A........vQH8DSP....PTPTEDB....fZX.......vQL8zRP....PTPTEDB....X.........vQL8DLP....PTPTEDB..............vQL8TLP....PTPTEDB..............vQRUDSP....PTPTEDB....PML.......vQSQ0RP....PTPTEDB....C.........vQSQELP....PTPTEDB....A.........vQSQULP....PTPTEDB....A.........vQGEDTP....PTPTEDB....nFF.......PPEgEUJ....PTPTET.......PPL8DTJ....PTPTET.......vPL8DTP....PTPTEDB..............PPTIUSJ....PTPTET.......PPHkzRP....PTPTEDB....+A........PPHkjUP....PTPTEDB....+A........PPPkDUJ....PTPTET.......PPL8zRP....PTPTEDB..............PPL8jUP....PTPTEDB..............PRNITUL....PTPTEDA....I4FHwPERRMED....DEDUAg....PFiE.......zzSN8jB....DEDUAE.......vTRSQkB....DEDUAE.......PEURcjB....DEDUAE.......PEUREjB....DEDUAE.......zzPH4jB....DEDUAE....PL.PUSCMjB....DEDUAE.......zzPCA.E....DEDUAs....fPg41ZfLUYrU1XzA.UKUTVJ....PTPTET.......vREkE.P....PTPTEDB..............PSAQETrC...PTPTED.....T8DSBwB....QAQUP.....PTPTQkB....DEDUAE.......PDTA4jB....DEDUAE.......zTPEQDp....DEDUAA....PSAQUQPA...PTPTED.....MQkTLAD....QAQUPf...............................................MwzTTAA....QAQUPH....LUQLUD.....MEDUVAD....QAQUP3....n0SO0DB..............vSFYzTf...............................................S8TQDoL....QAQUPH...............AUzQ.n.....QAQUPA....D..FkDSTIB....QAQUPA....D..FkDUAAA....QAQUPH...............LYzS.HB....QAQUPA....D..LYDUAAA....QAQUPH...............E4jU.HB....QAQUPA....D..E4DUAAA....QAQUPH...............M8DQ.HB....QAQUPA....D..M8DQPAA....QAQUPH...............SUDSEgG....QAQUPvA....0TEwDB....A.........vQSUDSH...............RMUQLA....PSSUDS.....LzTEwj.......vUSUDS.....vzTEwD.....T8zQG4A...PMvHjQ.PCLBYD.y.iPFAfLvHjQADCLBYD.v.iPFAvTEQEUHD...PTPTED.....PwzTTgC....QAQUPv....LzSLMEF....................................S8jTTA....vTEwTQ.....LESSQEN....DEDUAAC...vPOwzTX....................................L0SRQE.....SUDSEA....PSLMEU3....PTPTEDL....C8DSSgA...................................vTOIEU.....LUQLUD.....CEDUSgC....QAQUPv....LzSLMEF....................................S8jTTA....vTEwTQ......"
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "3.6.0a 6855.1106",
-									"origin" : "TX16Wx.vstinfo",
-									"type" : "VST",
-									"subtype" : "Instrument",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "TX16Wx.vstinfo",
-										"plugindisplayname" : "3.6.0a 6855.1106",
-										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 1415065910,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"blob" : "7594.CMlaKA....fQPMDZ....APEVwXC..........5TY2ABTkImYuIWag41XkA...................zga1UlbyQ....Ph2A..2ElckgK...fYowVYJB...TmbrAPX....lkFakoyKu7RUyUlby8xbnUlYlkVYuPza24FauEFYy8hYo4VXrUhLvDVcjk1akHCLyEVavwVYy8RP0QVXikFc4UhLvjlakHCLAUGYgMVZzkWIx.yTg0FbrUVIx.SLtbWX1A.co0VYH.....PhEUm4FX..ykldkg....f.s2.......3VXsUVG....AUGYgMVZzkGHo4FHAUGYgMVZzkGHSEVavwVYfDC.vI2YsYc...fYowVY7....TmbrA.E....NU1ckHCLPI2amIWXs4Bc3AmbucFco0VYH...............ykldkg...............PVXzElhA...uu6u77CdswFH1Ulbyk1at0iHw3BLh.RYtM1ajklam0iHUQkQsfiHfLGcg4FYgw1atUVOh31ah7iOJvCc3oCbx81YxEVaffWar41b5PGd8HBZzQGb57xK2c2ctPGdwXyc34xXu01Ky3BLu.mbuclbg0lHffWar41b5f2bo0iHnQGcvoyKub2c24xcy3xaxc1Kx.CLw7BVMwzTigVYsEVKo41bzElaiUlHJ.BHff2booybigVYsEFSuMVXzk1at0iHnQGcvoyKub2c24Bc3EiM2gmKi8VauLiKv7BHvI2amIWXsIBHzgmNiIWYgQWYj0hX40iHy.iMvDiHfPGd5DWcgwVZzkWOhPTYlEVcrQmHJ.BHfPGd53VXsUVOh3TY2ABTx81YxEVah3iBf.BH7PGd5H1a04FYyABc3oCZocFZsXWYr0iHwHyMh.Bc3oCZocFZsrVY40iHGkiHfPGd5v1a20hckwVOh.iHfPGd5v1a20xZkkWOhLTKwHxK9n.OuPGd5.mbuclbg0lOJ.mbm0FHG...lkFak4G...PcxwF.VA...XVZrUlNu7xKUMWYxM2KygVYlYVZk8xQoQGR0I1KSgVYlYVZkwFYszTZg0VZsXTXrwlLvHyLuzTULUzKM81bnITZz0BUXEiMWgWKvEFciglKzgGbx81YzkVakg....Ppn.gOEffA.LWZ5UFB....wa.........YgQWXRZ...79t+xyO30FafXWYxMWZu4VOhDiKvHBHk41XuQVZtcVOhTEUF0BNh.xbzElajEFau4VY8HhauIxO9n.OzgmNvI2amIWXsABdswlayoCc30iHnQGcvoyKub2c24Bc3EiM2gmKi8VauLiKv7Bbx81YxEVah.BdswlayoCdykVOhfFczAmNu7xc2cmK2MiKuI2YuHCLvDyKX0DSSMFZk0VXsjlayQWXtMVYhn.Hf.BdyklNyMFZk0VXL81XgQWZu4VOhfFczAmNu7xc2cmKzgWL1bGdtL1as8xLt.yKf.mbuclbg0lHfPGd5LlbkEFckQVKhkWOhLCL1.SLh.Bc3oSb0EFaoQWd8HBQkYVX0wFchn.Hf.Bc3oiag0VY8HRSuMGZBkFcsPEVwXyU30BbgQ2XnIhOJ.BHfvCc3oycgYWYfPGd5jFY8HBLh.Bc3oCbgQGZ8HRZjgmNu7xHvHxK9n.Hf.BOzgmNh8VctQ1bfPGd5fVZmgVK1UFa8HRLxbiHfPGd5fVZmgVKqUVd8HxQ4HBHzgmNr81csXWYr0iHvHBHzgmNr81csrVY40iHC0RLh7hOJ.BHfvCc3oybuUmajMGZgAWYfPGd5TmaoM2at0xX4MFaoMVKyAmbkEFY8HhYgw1bkIBHzgmN04VZy8lasLGbxUVXj0iHvLDch.Bc3oSctk1bu4VKjUFbzgVOhDCLvThHfPGd5TmaoM2at0Bbg4VOhDCLvThHJ.BHf.BHfPGd5bFaoQVYsz1ajUVOhfTYrQlHfPGd5.2cs0iHvThHfPGd5X2arUWak0iHv.BYBIBHzgmNoQVOhXiXjQSN3XSLsXiX1PVKzTVMxzBNjQiLsPVLkkiXvP1L3TFN3HhBf.BHf.BHzgmN04VZy8lasLGcgIGc8HBLsMmHfPGd53VXsUVOh3TY2AxTuUmajIBHzgmN04VZy8la8HRLh.Bc3oCbg4VOh.SIh3iBf.BHf.BH7PGd5DVYmABc3oCakYWYrISOh.CHjIjHfPGd5vVY1UFawziHv.BYBIBHzgmNxUFakE1bk0xbnEFbk0iHsTCLkHBHzgmNxUFakE1bk0iH0.iKvz1bh.Bc3oCYkMVX4ISKygVXvUVOhzRMvThHJ.BHf.BHf.BHfPGd5LWcyQWXo4VOh.CHjIjHfPGd5PVYiEVdxziH0.CLsMmHfPGd5PVYiEVdwzxbnEFbk0iHsTCLkHBHzgmNjU1XgkWL8HRMv.SayIBHzgmNgQGcgM1ZsLGZgAWY8HRK0.SIhn.Hf.BHf.BHf.Bc3oSXzQWXisVOh.SayIxK9n.Hf.BHf.BOzgmNyUlajABc3oCakYWYr0iHv.BYBIxK9n.Hf.BHf.BOzgmNyUlajABc3oCakYWYr0iHv.BYBIxK9n.Hf.BHf.BOzgmNyUlajABc3oCakYWYr0iHv.BYBIxK9n.Hf.BHf.BOzgmNs8FY0wVXzk1at8hOJ.BHfvyKzgmNy8VctQ1bnEFbk4iBf.BH7PGd5blbuUGbfPGd5L2a04FYygVXvUVOhXiXjQSN3XSLsXiX1PVKzTVMxzBNjQiLsPVLkkiXvP1L3TFN3HBHzgmNi8FauIWOhjWYrw1a2IBHzgmNyMVXrUVOhDCLvHBHzgmNuUGcvUGc8HRKsHhBf.BHf.BHzgmNt8FckAmbo8VOhvTXyQmHfPGd5DWcgwVZzkWOhPTYlEVcrQmHfPGd5.GagkmXgM1Z8HhTkMWXsAGakIBHzgmNv8Fa401ajUVOh.0arkmHfPGd5.GagkWauQVY8HhSuIWagwlHfPGd5XVZtUVOh.iHJ.BHf.BHfPGd5L1agI2bk0iHvHBHzgmNig1aqUVKmI2a0AWOh.iHfPGd5.WXt0iHvThHfPGd5X2arUWak0iHv.BYBIBHzgmNtEVak0iHNU1cfbjbuUGbh3iBf.BHf.BH7PGd5HWYmk1atABc3oiYo4VY8HBLh.Bc3oibu8Fc8HxP0HBHzgmN2Elck0iHvHBHzgmNvEla8HBLkHBHzgmNgQGck4VcgQWZu4VOh.CHjIjHfPGd5z1ajUVOhPjQDIhOJ.BHf.BHf.BHfvCc3oiXuUmajMGHzgmNnk1Yn0hckwVOhDiL2HBHzgmNnk1Yn0xZkkWOhLzH1HBHzgmNr81csXWYr0iHvHBHzgmNr81csrVY40iHCUiHu3iBf.BHf.BH77Bc3oibkcVZu4lOJ.BHfvyKzgmNmI2a0AmOJvyKzgmNvI2amIWXs4iBvUlbloz...fYowVY.A...TmbrA.F....NU1ckHCLPUlbl8lbsElaiUlKzgGbkImYzkVakg...............LWZ5UFB...............YgQWX5K...79t+xyO30FafXWYxMWZu4VOhDiKvHBHk41XuQVZtcVOhTEUF0BNh.xbzElajEFau4VY8HhauIxO9n.OzgmNvUlbl8lbsElaiUFH30FatMmNzgWOhfFczAmNu7xc2cmKzgWL1bGdtL1as8xLt.yKvUlbl8lbsElaiUlHffWar41b5f2bo0iHnQGcvoyKub2c24xcy3xaxc1Kx.CLw7BVMwzTigVYsEVKo41bzElaiUlHJ.BHff2booybigVYsEFSuMVXzk1at0iHnQGcvoyKub2c24Bc3EiM2gmKi8VauLiKv7BHvUlbl8lbsElaiUlHfPGd5LlbkEFckQVKhkWOhLCL1.SLh.Bc3oiag0VY8HhSkcGHPUlbl8lbsElaiUlH9n.Hf.BOzgmNyw1azABc3oyXnElatUFa8HRLh.Bc3oCbx81YxEVa8HRZjgmNu7xHwHBHzgmNi8FauIWOhHFa0UlHfPGd57VczAWcz0iHOUGcfDiHfPGd53VXsUVOhLDZvDiH9n.Hf.BHf.BOzgmN18Fa00VYfPGd5XWXrUWY8HBLfPlPh7hOJ.BHf.BHfvCc3oCbg4FHzgmN1EFa0UVOh.SIh7hOJ.BHf.BHfvCc3oCcxElayA2ayUFHzgmN1EFa0UVOh.iHu3iBf.BHf.BH7PGd5PVYzUmakABc3oicgwVck0iHvHxK9n.Hf.BHf.BOzgmNyUlaj4iBf.BHf.BHf.BH7PGd5vVY1UFafPGd5XWXrUWY8HBLfPlPh7hOJ.BHf.BHfvyKzgmNyUlaj4iBf.BHf.BH7PGd5LWYtQlOJ.BHf.BHf.BHfvCc3oCakYWYrABc3oicgwVck0iHv.BYBIxK9n.Hf.BHf.BOuPGd5LWYtQlOJ.BHf.BHfvCc3oybk4FY9n.Hf.BHf.BHf.BOzgmNrUlckwFHzgmN1EFa0UVOh.CHjIjHu3iBf.BHf.BH77Bc3oybk4FY9n.Hf.BOuPGd5LGauQmOJvyKzgmNvUlbl8lbsElaiUlOJTWZyQmPP...MkzTEo.....QAQUPA.......MkjSIo.....QAQUPA.......MUDQIo.....QAQUPA....D..LEjTGo.....QAQUPA.......METRBo.....QAQUPA....D..SUDUBo.....QAQUPA.......FgETBo.....QAQUPA.......FQUPBAG....QAQUPA....D..FkDSE4E....QAQUPVA...TkTLAfE....lkFakoyKu7RUyUlby8xbnUlYlkVYuXTRTkEB....++++++++++OUAIDSf.................................Sc.A......PBHPEQTRTQiC...QAQUPP............UFP.......pDBjQXAUPn....PTPTEDH..............................................vTLM0Pj2...PTPTEDH................................r.IP.......lDBzTLAUPz1...PTPTED.....SwjUIQZC...QAQUP.A...........lEP.......fkAD.......XV.A......PJGP.......bxAD.......Hf.A......fSGP..........vTL8DUzA...PTPTED.....FIDLvn.....QAQUPA.......FIDLwn.....QAQUPA.......FIDLxn.....QAQUPA....D..FIDLyn.....QAQUPA.......FIDLzn.....QAQUPA.......FIDL0n.....QAQUPA.......AAUPNg.....QAQUP.....bDTA4jLA...DEDUAA....vSKMUQJ....PTPTET...........f..D...PTPTEDH..............................................vQLMEUPC...PTPTEDx....C8DSSAJ............L.A........CP................................................................................................................................................................................................S8jTTA....vTEwTQP.........................vRSUDQH....PTPTED.....RAUPNog....QAQUPX............bCP........nAD.......bT.Q0SLIjp....DEDUAA....PSFkDVJ....PTPTET.......PSVUDSJ....PTPTET.......PSRUjUJ....PTPTET.......PPMEDTJ....PTPTET.....A.fPNQzTJ....PTPTET.....A..SO8DTJ....PTPTET.......PPPwTVJ....PTPTET.......PPLwzQJ....PTPTET.......vQRkDQJ....PTPTET.....A.....f..A...PTPTEDN....Z8zSMg..........A....7jQFMEH................................38HP.......3kAD...f.3C...PTPTEDH................................38HP........HAjTLMEUHC...PTPTEDv....C8DSSgJ............L.8kCKX5YDPDPd4vBldFACAjWNrfomQ.Q.4kCKX5YDLDPd4vBldFAGAjWNrfomQnQ.4kCKX5YDbDPc4vBldFgFADaoPuU4KAR.QDnKJINsbDPOIZ.smzYhATWNrfomQvQ.wkCKX5YDFDPa4vBldFgDADziqbsnh.S.szC0EBHBmDPDkDD0h0jIADQ6f6GjngQ.oFT2XdCFVDP1aDvs58bEAzTOIEU.....LUQLUD.....WEDTAYxA...QAQUPRF...........bCP.......HhAD.......PW.8++++++++++yAGasgP...v6696VGw1ahEFacovPu4Fcx8FaHkVOBEiBC8lazI2arwza8LTLJLjbuM2blEFYk0SLv.SIJbjbuUGbNEVak0ydB0mBLUlckw1b8.iBL81av0iYgw1bkoPSgAGRo0yQ4nPSgAGSu0yPxn.ToQ2Xn0iYgw1bkofTkMWcrQGU4AWY8zTXzIWZiU1bJLUXsAGak4TXsUVO6ITees2R880dV02W6ASeJLUZtcFaksTY40SLJL0a0I2Xk0yTkwVYiQWYjAxcgYWYyo.UnIWYyg1arQVOsPCLfPlPJPkbo0VOlEFayUlBVElboEFco8lay0SLJfUKggWZy0SKsnvVPIWYyUFccofSg0VY8nvcyIGcMA...79t+t0Qr8lXgwVWJ3Tcs8jbjUlbo41Y8LiBOIGYkIGL83zatUlBOIGYkIWL83zatUlBOIGYkImL83zatUlBaAkbkMWYz0kBNEVak0iB.b2XtQGA.........vzSVwjB....DEDUAE.......LkSAAkB....DEDUAE.......vzSOAkB....DEDUAE.......DDTLkkB....DEDUAE....P..bjTIQjB....DEDUAE....P..bUPEQDP....DEDUAgC...fVO8TSH...............OYjQSAB..............................................bUPTEj3D...DEDUAg...............bUPLMEv....DEDUAAB..............................................bESSQEj....DEDUAgH...vPOwzTvA............................................CP...................L.A........CP...................L.A..................HAD........R.A.......fDP........HAzTOIEU.....LUQLUD.....L8DSSAJ....QAQUPf...............................................LwzTTAG....QAQUPnA...LzSLMET..................................CP...................L.A........CP...................L.A....................vTOIEU.....LUQLUD.....SETSPo0....QAQUP.....zzSDAiB....DEDUAE....P..zzSDEiB....DEDUAE.......zzSDIiB....DEDUAE.......HkQN8jB....DEDUAE....P..bTPXACC....DEDUAM....fUkwF.GEDVwv.....QAQUPD....3zatUVPLETVJ....PTPTET........SDMEUJ....PTPTET.......vQHkzRP....PTPTEDB....WA........vQHkDLP....PTPTEDB....+A........vQHkTLP....PTPTEDB....+A........vQH8DSP....PTPTEDB....fZX.......vQL8zRP....PTPTEDB....X.........vQL8DLP....PTPTEDB..............vQL8TLP....PTPTEDB..............vQRUDSP....PTPTEDB....PML.......vQSQ0RP....PTPTEDB....C.........vQSQELP....PTPTEDB....A.........vQSQULP....PTPTEDB....A.........vQGEDTP....PTPTEDB....nFF.......PPEgEUJ....PTPTET.......PPL8DTJ....PTPTET.......vPL8DTP....PTPTEDB..............PPTIUSJ....PTPTET.......PPHkzRP....PTPTEDB....+A........PPHkjUP....PTPTEDB....+A........PPPkDUJ....PTPTET.......PPL8zRP....PTPTEDB..............PPL8jUP....PTPTEDB..............PRNITUL....PTPTEDA....I4FHwPERRMED....DEDUAg....PFiE.......zzSN8jB....DEDUAE.......vTRSQkB....DEDUAE.......PEURcjB....DEDUAE.......PEUREjB....DEDUAE.......zzPH4jB....DEDUAE....PL.PUSCMjB....DEDUAE.......zzPCA.E....DEDUAs....fPg41ZfLUYrU1XzA.UKUTVJ....PTPTET.......vREkE.P....PTPTEDB..............PSAQETrC...PTPTED.....T8DSBwB....QAQUP.....PTPTQkB....DEDUAE.......PDTA4jB....DEDUAE.......zTPEQDp....DEDUAA....PSAQUQPA...PTPTED.....MQkTLAD....QAQUPf...............................................MwzTTAA....QAQUPH....LUQLUD.....MEDUVAD....QAQUP3....n0SO0DB..............vSFYzTf...............................................S8TQDoL....QAQUPH...............AUzQ.n.....QAQUPA....D..FkDSTIB....QAQUPA....D..FkDUAAA....QAQUPH...............LYzS.HB....QAQUPA....D..LYDUAAA....QAQUPH...............E4jU.HB....QAQUPA....D..E4DUAAA....QAQUPH...............M8DQ.HB....QAQUPA....D..M8DQPAA....QAQUPH...............SUDSEgG....QAQUPvA....0TEwDB....A.........vQSUDSH...............RMUQLA....PSSUDS.....LzTEwj.......vUSUDS.....vzTEwD.....T8zQG4A...PMvHjQ.PCLBYD.y.iPFAfLvHjQADCLBYD.v.iPFAvTEQEUHD...PTPTED.....PwzTTgC....QAQUPv....LzSLMEF....................................S8jTTA....vTEwTQ.....LESSQEN....DEDUAAC...vPOwzTX....................................L0SRQE.....SUDSEA....PSLMEU3....PTPTEDL....C8DSSgA...................................vTOIEU.....LUQLUD.....CEDUSgC....QAQUPv....LzSLMEF....................................S8jTTA....vTEwTQ......"
-									}
-,
-									"fileref" : 									{
-										"name" : "3.6.0a 6855.1106",
-										"filename" : "3.6.0a 6855.1106.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "19e24145e8cd7f6f90abba9e1805a611"
-									}
-
-								}
- ]
-						}
-
+						"autosave" : 0,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"prefer" : "VST3"
 					}
 ,
 					"text" : "vst~ TX16Wx",
@@ -553,6 +546,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -660,28 +660,7 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-4" : [ "vst~", "vst~", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "3.6.0a 6855.1106.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "MP-M4L",

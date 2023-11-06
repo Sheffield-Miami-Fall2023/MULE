@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tx:performance xmlns:tx="http://www.tx16wx.com/3.0/performance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tx16wx.com/3.0/ performance" tx:created-by="30601" tx:name="MoshBit">
+   <tx:slot tx:channel="1" tx:program="MoshBit_MK.txprog" tx:color="blue" tx:output="Out 1" tx:name="Ch01">
+      <tx:volume tx:value="0 dB"/>
+      <tx:pan tx:value="0%"/>
+      <tx:transpose tx:value="0"/>
+      <tx:detune tx:value="0"/>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+   </tx:slot>
+</tx:performance>

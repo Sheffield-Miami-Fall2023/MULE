@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 84.0, 184.0, 864.0 ],
+					"patching_rect" : [ 9.0, 84.0, 188.0, 864.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 16,
 					"presentation_rect" : [ 10.0, 84.0, 763.0, 292.0 ],
@@ -63,7 +63,7 @@
 					"patching_rect" : [ 10.0, 36.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 36.0, 150.0, 20.0 ],
-					"text" : "last update 10/25"
+					"text" : "last update 11/5"
 				}
 
 			}
