@@ -8720,6 +8720,54 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-191",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 179.0, -290.0, 53.0, 20.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-189",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 208.0, -177.0, 36.0, 20.0 ],
+									"text" : "sel 13"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-188",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 130.0, -166.0, 50.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-177",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 4,
+									"outlettype" : [ "int", "int", "int", "int" ],
+									"patching_rect" : [ 131.0, -220.0, 50.5, 20.0 ],
+									"text" : "key"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-190",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -23276,6 +23324,22 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-188", 0 ],
+									"order" : 1,
+									"source" : [ "obj-177", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-189", 0 ],
+									"order" : 0,
+									"source" : [ "obj-177", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
 									"midpoints" : [ 413.5, 342.0, 413.5, 342.0 ],
 									"source" : [ "obj-178", 0 ]
@@ -23336,8 +23400,22 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-174", 0 ],
+									"source" : [ "obj-189", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-186", 0 ],
 									"source" : [ "obj-190", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-174", 0 ],
+									"source" : [ "obj-191", 0 ]
 								}
 
 							}
@@ -34686,35 +34764,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "minsecmil.js",
-				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"bootpath" : "~/Documents/GitHub/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml-gr-lfo.js",
-				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"bootpath" : "~/Documents/GitHub/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml-gr-show.js",
-				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"bootpath" : "~/Documents/GitHub/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.granulator.zoom120518.js",
-				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"bootpath" : "~/Documents/GitHub/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.poly.granulator130120.maxpat",
-				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"bootpath" : "~/Documents/GitHub/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
