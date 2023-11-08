@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tx:program xmlns:tx="http://www.tx16wx.com/3.0/program" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tx16wx.com/3.0/ program" tx:created-by="30601" tx:quality="Default"
+   tx:name="MoshBit_DB">
+   <tx:wave tx:id="0" tx:path="MoshBitSamples/You_Greedy_Dirtbag1.wav">
+      <tx:loop tx:xfade="20" tx:end="40222" tx:start="17083" tx:mode="Forward" tx:name="A"/>
+      <tx:loop tx:xfade="20" tx:end="70233" tx:start="46770" tx:mode="Forward" tx:name="B"/>
+      <tx:loop tx:xfade="20" tx:end="188463" tx:start="163402" tx:mode="Forward" tx:name="C"/>
+   </tx:wave>
+   <tx:wave tx:id="1" tx:path="MoshBitSamples/Configurator_Lowest.wav"/>
+   <tx:bounds tx:high-vel="127" tx:high-key="G9" tx:low-vel="0" tx:low-key="C-1"/>
+   <tx:group tx:soundshape="082d2445-5f3f-44f2-b723-0c0aba37830f" tx:color="whitesmoke" tx:scale="100" tx:noteprio="Last"
+      tx:quality="Default" tx:playback="Resample" tx:pan="0%" tx:choke-group="0" tx:polymode="Poly" tx:output="--"
+      tx:playmode="Normal" tx:fine="0" tx:coarse="0" tx:volume="0 dB" tx:name="New Group">
+      <tx:region tx:fine="0" tx:wave="0" tx:root="C1" tx:loop="0" tx:range="0" tx:pan="0%" tx:attenuation="0 dB"
+         tx:mode="DFD">
+         <tx:bounds tx:high-vel="127" tx:high-key="B0" tx:low-vel="0" tx:low-key="C-1"/>
+      </tx:region>
+      <tx:region tx:fine="0" tx:wave="0" tx:root="C3" tx:loop="1" tx:range="1" tx:pan="0%" tx:attenuation="0 dB"
+         tx:mode="DFD">
+         <tx:bounds tx:high-vel="127" tx:high-key="B2" tx:low-vel="0" tx:low-key="C1"/>
+      </tx:region>
+      <tx:region tx:fine="0" tx:wave="0" tx:root="C5" tx:loop="2" tx:range="2" tx:pan="0%" tx:attenuation="0 dB"
+         tx:mode="DFD">
+         <tx:bounds tx:high-vel="127" tx:high-key="B4" tx:low-vel="0" tx:low-key="C3"/>
+      </tx:region>
+      <tx:region tx:fine="0" tx:shift="-12" tx:root="C9" tx:wave="1" tx:pan="0%" tx:attenuation="0 dB" tx:mode="DFD">
+         <tx:bounds tx:high-vel="127" tx:high-key="G9" tx:low-vel="0" tx:low-key="C5"/>
+      </tx:region>
+   </tx:group>
+</tx:program>

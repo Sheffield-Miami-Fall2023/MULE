@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tx:program xmlns:tx="http://www.tx16wx.com/3.0/program" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tx16wx.com/3.0/ program" tx:created-by="30601" tx:quality="Default"
+   tx:name="MoshBit_Steam">
+   <tx:wave tx:id="0" tx:path="MoshBitSamples/Steam_Sample.wav"/>
+   <tx:wave tx:id="1" tx:path="MoshBitSamples/Minecraft_4.wav"/>
+   <tx:wave tx:start="28130" tx:id="2" tx:path="MoshBitSamples/Barbie_Bib.wav">
+      <tx:loop tx:xfade="24" tx:end="35706" tx:start="32748" tx:mode="Forward" tx:name="Barbie_Sus"/>
+   </tx:wave>
+   <tx:bounds tx:high-vel="127" tx:high-key="G9" tx:low-vel="0" tx:low-key="C-1"/>
+   <tx:group tx:soundshape="082d2445-5f3f-44f2-b723-0c0aba37830f" tx:color="yellow" tx:scale="100" tx:noteprio="Last"
+      tx:quality="Default" tx:playback="Resample" tx:pan="0%" tx:choke-group="0" tx:polymode="Poly" tx:output="--"
+      tx:playmode="Normal" tx:fine="0" tx:coarse="0" tx:volume="0 dB" tx:name="New Group">
+      <tx:region tx:fine="0" tx:root="C2" tx:wave="0" tx:pan="0%" tx:attenuation="0 dB" tx:mode="DFD">
+         <tx:bounds tx:high-vel="127" tx:high-key="B2" tx:low-vel="0" tx:low-key="C-1"/>
+      </tx:region>
+      <tx:region tx:fine="0" tx:root="C5" tx:wave="1" tx:pan="0%" tx:attenuation="0 dB" tx:mode="DFD">
+         <tx:bounds tx:high-vel="127" tx:high-key="B5" tx:low-vel="0" tx:low-key="C3"/>
+      </tx:region>
+      <tx:region tx:fine="0" tx:wave="2" tx:root="C9" tx:loop="0" tx:pan="0%" tx:attenuation="0 dB" tx:mode="DFD">
+         <tx:bounds tx:high-vel="127" tx:high-key="G9" tx:low-vel="0" tx:low-key="C6"/>
+      </tx:region>
+   </tx:group>
+</tx:program>

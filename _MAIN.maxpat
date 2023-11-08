@@ -928,7 +928,7 @@
 					"id" : "obj-10",
 					"maxclass" : "flonum",
 					"maximum" : 1.5,
-					"minimum" : 0.8,
+					"minimum" : 0.5,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
