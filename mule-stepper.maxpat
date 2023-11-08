@@ -157,8 +157,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 82.934579432010651, 2053.0, 1061.0, 22.0 ],
-					"text" : "url https://docs.google.com/presentation/d/e/2PACX-1vQDtSBpGVTI2FbfGtiTHZy6vY8lOXfU5JkctkGtNMJEG6Iliep67KSPGhSDt9V162RufDOG-jRHaPXS/pub?start=false&loop=false&delayms=3000"
+					"patching_rect" : [ 82.934579432010651, 2053.0, 1070.0, 22.0 ],
+					"text" : "url https://docs.google.com/presentation/d/e/2PACX-1vRNxbKT2U7u8t0CbX08WGIywY_Wpfj1ScSfQFP2BvDmyBV3hiR95jJTTQRKu96cp9qQxLlodFeKj9j5/pub?start=false&loop=false&delayms=3000"
 				}
 
 			}
@@ -340,7 +340,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 27.0, 92.5, 40.0, 34.0 ],
 					"size" : 2,
-					"value" : 1
+					"value" : 0
 				}
 
 			}
@@ -348,6 +348,7 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -365,6 +366,7 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -382,6 +384,7 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-30",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -399,6 +402,7 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-91",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -5868,7 +5872,6 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-29",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -5885,7 +5888,6 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-121",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -5935,7 +5937,6 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-144",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -5952,7 +5953,6 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-145",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -6063,7 +6063,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 480.0, 800.0, 320.0 ],
 					"rendermode" : 0,
-					"url" : "https://docs.google.com/presentation/d/e/2PACX-1vQDtSBpGVTI2FbfGtiTHZy6vY8lOXfU5JkctkGtNMJEG6Iliep67KSPGhSDt9V162RufDOG-jRHaPXS/pub?start=false&loop=false&delayms=3000"
+					"url" : "https://docs.google.com/presentation/d/e/2PACX-1vRNxbKT2U7u8t0CbX08WGIywY_Wpfj1ScSfQFP2BvDmyBV3hiR95jJTTQRKu96cp9qQxLlodFeKj9j5/pub?start=false&loop=false&delayms=3000"
 				}
 
 			}
