@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 62.0, 1354.0, 804.0 ],
+		"rect" : [ 34.0, 62.0, 1372.0, 804.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -124,14 +124,14 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "SoundSculpt-Evan.maxpat",
+					"name" : "Constructions-Evan.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1354.0, 1206.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 800.0, 800.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 800.0, 800.0 ],
 					"varname" : "soundsculpt-evan",
 					"viewvisibility" : 1
 				}
@@ -242,12 +242,11 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-64",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "SoundSculpt-Landon.maxpat",
+					"name" : "Constructions-Landon.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -444,18 +443,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-45",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1029.0, 880.0, 33.0, 22.0 ],
-					"text" : "== 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -487,20 +474,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 924.0, 880.0, 33.0, 22.0 ],
 					"text" : "== 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.595186999999999,
-					"id" : "obj-41",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 998.5, 848.0, 29.5, 21.0 ],
-					"text" : "!= 6"
 				}
 
 			}
@@ -801,7 +774,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "MULE-Stepper.maxpat",
+					"name" : "Deckstep.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -854,6 +827,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-13",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -905,7 +879,7 @@
 					"rounded" : 0.0,
 					"style" : "rnbohighcontrast",
 					"tabcolor" : [ 0.152941176470588, 0.176470588235294, 0.694117647058824, 1.0 ],
-					"tabs" : [ "Home", "Blob Operator", "Mosh Bit", "Stepper", "SoundSculpt (Ethan)", "SoundSculpt (Evan)", "SoundSculpt (Landon)" ]
+					"tabs" : [ "Home", "Blob Operator", "Mosh Bit", "Deckstep", "Constructions (Evan)", "Constructions (Landon)" ]
 				}
 
 			}
@@ -1350,6 +1324,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
+					"order" : 1,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"order" : 0,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -1357,39 +1340,30 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
-					"order" : 0,
-					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-74", 0 ],
 					"order" : 1,
 					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"order" : 0,
-					"source" : [ "obj-41", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
-					"order" : 1,
-					"source" : [ "obj-41", 0 ]
+					"order" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"source" : [ "obj-42", 0 ]
+					"source" : [ "obj-43", 0 ]
 				}
 
 			}
@@ -1397,13 +1371,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
-					"source" : [ "obj-45", 0 ]
 				}
 
 			}
@@ -1640,30 +1607,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
-					"order" : 4,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"order" : 5,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"order" : 6,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
 					"order" : 3,
 					"source" : [ "obj-8", 0 ]
 				}
@@ -1671,7 +1614,23 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
+					"destination" : [ "obj-34", 0 ],
+					"order" : 4,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"order" : 5,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
 					"order" : 2,
 					"source" : [ "obj-8", 0 ]
 				}
@@ -1679,7 +1638,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
+					"destination" : [ "obj-39", 0 ],
 					"order" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
@@ -1687,7 +1646,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
+					"destination" : [ "obj-40", 0 ],
 					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
@@ -2228,6 +2187,27 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Constructions-Evan.maxpat",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Constructions-Landon.maxpat",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Deckstep.maxpat",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Home.maxpat",
 				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
 				"patcherrelativepath" : ".",
@@ -2235,28 +2215,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "MULE-Stepper.maxpat",
-				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Mosh-Bit.maxpat",
-				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SoundSculpt-Evan.maxpat",
-				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SoundSculpt-Landon.maxpat",
 				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

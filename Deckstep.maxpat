@@ -6009,7 +6009,7 @@
 					"patching_rect" : [ 10.0, 36.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 36.0, 150.0, 20.0 ],
-					"text" : "last update 11/6"
+					"text" : "last update 11/15"
 				}
 
 			}
@@ -6024,7 +6024,7 @@
 					"patching_rect" : [ 10.0, 10.0, 208.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 10.0, 208.0, 24.0 ],
-					"text" : "MULE Stepper ?"
+					"text" : "Deckstep"
 				}
 
 			}

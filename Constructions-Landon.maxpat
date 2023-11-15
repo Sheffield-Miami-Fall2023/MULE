@@ -2063,11 +2063,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2543.0, 960.0, 316.0, 60.0 ],
+					"patching_rect" : [ 2543.0, 960.0, 314.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 328.0, 688.47471496462822, 260.0, 60.0 ],
-					"text" : "All settings off,\nmanual mode",
+					"text" : "All settings off, manuel mode",
 					"textcolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ],
 					"textjustification" : 1
 				}
@@ -24783,6 +24783,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-199",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24799,6 +24800,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-200",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24815,6 +24817,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-201",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24831,6 +24834,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-202",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24847,6 +24851,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-203",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24863,6 +24868,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-204",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24879,6 +24885,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-205",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24895,6 +24902,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-206",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24911,6 +24919,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-207",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24927,6 +24936,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-191",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24943,6 +24953,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-192",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24959,6 +24970,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-193",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24975,6 +24987,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-194",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24991,6 +25004,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-195",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -25007,6 +25021,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-196",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -25023,6 +25038,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-197",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -25039,6 +25055,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-198",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -25055,6 +25072,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-187",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -25071,6 +25089,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-188",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -25087,6 +25106,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-189",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -25103,6 +25123,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-190",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -25119,6 +25140,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-184",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -25135,6 +25157,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-186",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -25198,6 +25221,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-152",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -25214,6 +25238,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "sample",
+					"chanoffset" : 0,
 					"id" : "obj-133",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -64187,13 +64212,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-49",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 36.0, 150.0, 20.0 ],
+					"patching_rect" : [ 10.0, 36.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 36.0, 150.0, 20.0 ],
-					"text" : "last update 11/5 - Landon"
+					"presentation_rect" : [ 10.0, 36.0, 159.947367999999983, 20.0 ],
+					"text" : "last update 11/15 (Landon)"
 				}
 
 			}
@@ -64209,7 +64235,7 @@
 					"patching_rect" : [ 10.0, 10.0, 208.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 10.0, 530.103253338002332, 24.0 ],
-					"text" : "SoundSculpt - Crawling Sample Slicer (by Ethan Chambers)"
+					"text" : "Constructions - Crawling Sample Slicer (by Ethan Chambers)"
 				}
 
 			}

@@ -33920,27 +33920,6 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 270.0,
-					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"hidden" : 1,
-					"id" : "obj-3",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 800.0, 800.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 800.0, 800.0 ],
-					"proportion" : 0.5,
-					"rounded" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"background" : 1,
 					"hidden" : 1,
 					"id" : "obj-2",
@@ -33967,7 +33946,7 @@
 					"patching_rect" : [ 10.0, 36.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 36.0, 150.0, 20.0 ],
-					"text" : "last update 11/6 - Evan"
+					"text" : "last update 11/15 (Evan)"
 				}
 
 			}
@@ -33983,7 +33962,28 @@
 					"patching_rect" : [ 10.0, 10.0, 732.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 10.0, 715.0, 24.0 ],
-					"text" : "SoundSculpt - Aerolator (adapted from Robert Henke's \"Granulator II\" by Ethan Chambers)"
+					"text" : "Constructions - Aerolator (adapted from Robert Henke's \"Granulator II\" by Ethan Chambers)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"hidden" : 1,
+					"id" : "obj-3",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 800.0, 800.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 800.0, 800.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
 				}
 
 			}
@@ -34764,35 +34764,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "minsecmil.js",
-				"bootpath" : "~/Documents/GitHub/MULE",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml-gr-lfo.js",
-				"bootpath" : "~/Documents/GitHub/MULE",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml-gr-show.js",
-				"bootpath" : "~/Documents/GitHub/MULE",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.granulator.zoom120518.js",
-				"bootpath" : "~/Documents/GitHub/MULE",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.poly.granulator130120.maxpat",
-				"bootpath" : "~/Documents/GitHub/MULE",
+				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
