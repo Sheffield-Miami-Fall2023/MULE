@@ -1,0 +1,364 @@
+<REAPER_PROJECT 0.1 "7.05/macOS-arm64" 1699982067
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 24.53173316587013
+  ZOOM 94.83861660321932 1909 0
+  VZOOMEX 14 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAA==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE "/Users/sheffie/Downloads/ship2.mp3"
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 4 0 0 2 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 32
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 48000 1 0
+  <RENDER_CFG
+    bDNwbUABAAAAAAAAAAAAAP////8EAAAAQAEAAAAAAAA=
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {650E21B4-2322-2F45-8573-4CF6D1D93340}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {3832DA6F-7CB0-F642-95BD-94ECDDF4922A}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {1FB65344-0A6B-E948-97B5-888995C6F49E}
+    NAME 452572__kyles__cash-register-old-antique-open-close-drawer-with-bell-ring-various-combinations
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {1FB65344-0A6B-E948-97B5-888995C6F49E}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 4 0.1045131488372 0 4 0 1 1
+      FADEOUT 2 0.97710518979992 0 2 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {2091D1C7-77C5-C34C-AA1C-DA8B0837B857}
+      IID 1
+      NAME 452572__kyles__cash-register-old-antique-open-close-drawer-with-bell-ring-various-combinations.wav
+      VOLPAN 1 0 0.624657 -1
+      SOFFS 83.69391412025455
+      PLAYRATE 1.45 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B88C2ED4-53F0-C54D-8E35-63E9438B8879}
+      <SOURCE WAVE
+        FILE "Media/452572__kyles__cash-register-old-antique-open-close-drawer-with-bell-ring-various-combinations.wav"
+      >
+    >
+    <ITEM
+      POSITION 9
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 4 0.10068127914392 0 4 0 1 1
+      FADEOUT 2 0.98578470190269 0 2 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {ADDB7B12-929A-F54F-B43A-3B55E5571E48}
+      IID 2
+      NAME 131348__kaonaya__bell-at-daitokuji-templekyoto.wav
+      VOLPAN 1 0 1.805887 -1
+      SOFFS 7.49711188670196
+      PLAYRATE 2.45 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8BAB7B87-9CAE-C849-84C5-28B58AD5C2D9}
+      <SOURCE WAVE
+        FILE "Media/131348__kaonaya__bell-at-daitokuji-templekyoto.wav"
+      >
+    >
+    <ITEM
+      POSITION 23.5
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 4 0.08939337972476 0 4 0 1 1
+      FADEOUT 2 0.97272067094285 0 2 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {5DCC09A1-534B-9849-B152-11D1D0AFBED2}
+      IID 3
+      NAME 519080__herkules92__ship-bell-from-1936.wav
+      VOLPAN 1 0 0.763767 -1
+      SOFFS 11.21055997675391
+      PLAYRATE 1.85 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B636B3D0-2B2C-D047-A17E-FE574D015FA7}
+      <SOURCE WAVE
+        FILE "Media/519080__herkules92__ship-bell-from-1936.wav"
+      >
+    >
+  >
+  <TRACK {EB8A0D9A-9FA4-D245-BA14-A25C6D0CD5D6}
+    NAME 452572__kyles__cash-register-old-antique-open-close-drawer-with-bell-ring-various-combinations
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {EB8A0D9A-9FA4-D245-BA14-A25C6D0CD5D6}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 4 0.09896377810249 0 4 0 1 1
+      FADEOUT 2 1.03141818857161 0 2 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {45E99BAB-96D3-1142-A642-E9EAA91D8578}
+      IID 1
+      NAME 452572__kyles__cash-register-old-antique-open-close-drawer-with-bell-ring-various-combinations.wav
+      VOLPAN 1 0 0.624657 -1
+      SOFFS 83.69059452344074
+      PLAYRATE 1.44 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {778D73A1-6286-4040-B922-22DE6C51576F}
+      <SOURCE WAVE
+        FILE "Media/452572__kyles__cash-register-old-antique-open-close-drawer-with-bell-ring-various-combinations.wav"
+      >
+    >
+    <ITEM
+      POSITION 9
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 4 0.0995963147568 0 4 0 1 1
+      FADEOUT 2 1.00553660584371 0 2 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {DB5DA9BF-7D63-E343-838D-1E046F098302}
+      IID 2
+      NAME 131348__kaonaya__bell-at-daitokuji-templekyoto.wav
+      VOLPAN 1 0 1.805887 -1
+      SOFFS 7.49543883745722
+      PLAYRATE 2.44 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CDADA1E4-5774-1B48-9A36-B8E203CDBB25}
+      <SOURCE WAVE
+        FILE "Media/131348__kaonaya__bell-at-daitokuji-templekyoto.wav"
+      >
+    >
+    <ITEM
+      POSITION 23.5
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 4 0.09555115045691 0 4 0 1 1
+      FADEOUT 2 0.96826683412987 0 2 0 -1 -1
+      MUTE 0 0
+      SEL 1
+      IGUID {807FC5C0-A7FD-CA47-8A33-CFD13AE0D714}
+      IID 3
+      NAME 519080__herkules92__ship-bell-from-1936.wav
+      VOLPAN 1 0 0.763767 -1
+      SOFFS 11.21128970333164
+      PLAYRATE 1.84 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8390267D-2E1C-2341-BBAE-7F186AE6B46C}
+      <SOURCE WAVE
+        FILE "Media/519080__herkules92__ship-bell-from-1936.wav"
+      >
+    >
+  >
+  <TRACK {F7A256D4-C297-674C-873B-D725EE697533}
+    NAME ding
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F7A256D4-C297-674C-873B-D725EE697533}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.85
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EBFA7552-C556-CF43-BD4E-4FBB7D26CC16}
+      IID 10
+      NAME ding.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0B579648-E1D0-194D-B7DC-A7C8708BDB28}
+      <SOURCE MP3
+        FILE "Media/ding.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 9
+      SNAPOFFS 0
+      LENGTH 0.85
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E84BC275-3386-F942-B839-485C17A57E44}
+      IID 10
+      NAME ding.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {065109BF-CC8E-7E47-A86B-977BF6604878}
+      <SOURCE MP3
+        FILE "Media/ding.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 23.5
+      SNAPOFFS 0
+      LENGTH 0.85
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8C5E4F5F-8B24-BD4B-9DA9-41077652D428}
+      IID 10
+      NAME ding.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B5CCC6F1-9F47-0047-9967-9C634A5E109D}
+      <SOURCE MP3
+        FILE "Media/ding.mp3" 1
+      >
+    >
+  >
+>
