@@ -40,6 +40,21 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 540.0, 704.0, 150.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 253.5, 424.0, 150.0, 33.0 ],
+					"text" : "\"i\" key initializes bite control"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-56",
 					"linecount" : 8,
 					"maxclass" : "comment",
@@ -8720,6 +8735,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-194",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 134.0, -319.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-191",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -8737,8 +8764,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 208.0, -177.0, 36.0, 20.0 ],
-									"text" : "sel 13"
+									"patching_rect" : [ 134.0, -350.0, 42.0, 20.0 ],
+									"text" : "sel 105"
 								}
 
 							}
@@ -8750,7 +8777,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 130.0, -166.0, 50.0, 20.0 ]
+									"patching_rect" : [ 56.0, -339.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -8761,7 +8788,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "int", "int", "int" ],
-									"patching_rect" : [ 131.0, -220.0, 50.5, 20.0 ],
+									"patching_rect" : [ 57.0, -393.0, 50.5, 20.0 ],
 									"text" : "key"
 								}
 
@@ -8799,18 +8826,6 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 984.0, -213.0, 50.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-176",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 293.0, -306.0, 39.0, 20.0 ],
-									"text" : "r bang"
 								}
 
 							}
@@ -23317,13 +23332,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-174", 0 ],
-									"source" : [ "obj-176", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-188", 0 ],
 									"order" : 1,
 									"source" : [ "obj-177", 0 ]
@@ -23400,7 +23408,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-174", 0 ],
+									"destination" : [ "obj-194", 0 ],
 									"source" : [ "obj-189", 0 ]
 								}
 
@@ -23416,6 +23424,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-174", 0 ],
 									"source" : [ "obj-191", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-191", 0 ],
+									"source" : [ "obj-194", 0 ]
 								}
 
 							}
@@ -34764,35 +34779,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "minsecmil.js",
-				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"bootpath" : "~/Documents/GitHub/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml-gr-lfo.js",
-				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"bootpath" : "~/Documents/GitHub/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml-gr-show.js",
-				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"bootpath" : "~/Documents/GitHub/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.granulator.zoom120518.js",
-				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"bootpath" : "~/Documents/GitHub/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.poly.granulator130120.maxpat",
-				"bootpath" : "~/GitHub/Sheffield-Miami-Fall2023/MULE",
+				"bootpath" : "~/Documents/GitHub/MULE",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
