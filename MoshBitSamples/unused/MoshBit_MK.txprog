@@ -6,9 +6,10 @@
       <tx:loop tx:end="18723" tx:start="2063" tx:mode="Forward" tx:name="A"/>
       <tx:loop tx:end="36436" tx:start="18475" tx:mode="Forward" tx:name="B"/>
       <tx:loop tx:end="50737" tx:start="36436" tx:mode="Forward" tx:name="C"/>
-      <tx:loop tx:end="60865" tx:start="50744" tx:mode="Forward" tx:name="Drums1"/>
+      <tx:loop tx:end="60865" tx:start="51150" tx:mode="Forward" tx:name="Drums1"/>
       <tx:loop tx:end="67015" tx:start="60092" tx:mode="Forward" tx:name="Drums2"/>
       <tx:loop tx:end="90624" tx:start="72973" tx:mode="Forward" tx:name="D"/>
+      <tx:loop tx:end="10243" tx:start="9533" tx:mode="Forward" tx:name="Asus"/>
    </tx:wave>
    <tx:bounds tx:high-vel="127" tx:high-key="G9" tx:low-vel="0" tx:low-key="C-1"/>
    <tx:soundshape tx:unison-cyclic-spread="false" tx:unison-spread="0Ct" tx:unison-depth="100%" tx:unison-pan="100%"
@@ -25,17 +26,29 @@
    <tx:group tx:soundshape="4684c32d-d2ff-41c3-9de0-777b2940be47" tx:color="yellow" tx:scale="100" tx:output="--"
       tx:noteprio="Last" tx:quality="Default" tx:playback="Resample" tx:polymode="Poly" tx:playmode="Normal" tx:fine="0"
       tx:coarse="0" tx:choke-group="0" tx:pan="0%" tx:volume="0 dB" tx:name="New Group">
-      <tx:region tx:fine="0" tx:wave="0" tx:root="C3" tx:loop="0" tx:range="0" tx:pan="0%" tx:attenuation="0 dB"
-         tx:mode="DFD">
+      <tx:region tx:fine="0" tx:wave="0" tx:release="0" tx:root="C3" tx:loop="6" tx:range="0" tx:pan="0%"
+         tx:attenuation="0 dB" tx:mode="DFD">
          <tx:bounds tx:high-vel="127" tx:high-key="B0" tx:low-vel="0" tx:low-key="C-1"/>
       </tx:region>
-      <tx:region tx:fine="0" tx:wave="0" tx:root="C3" tx:loop="3" tx:range="3" tx:pan="0%" tx:attenuation="0 dB"
-         tx:mode="DFD">
-         <tx:bounds tx:high-vel="127" tx:high-key="B2" tx:low-vel="0" tx:low-key="A#2"/>
+      <tx:region tx:fine="0" tx:wave="0" tx:release="0" tx:root="C5" tx:loop="1" tx:range="1" tx:pan="0%"
+         tx:attenuation="0 dB" tx:mode="DFD">
+         <tx:bounds tx:high-vel="127" tx:high-key="B1" tx:low-vel="0" tx:low-key="C1"/>
       </tx:region>
-      <tx:region tx:fine="0" tx:wave="0" tx:root="C5" tx:loop="4" tx:range="4" tx:pan="0%" tx:attenuation="0 dB"
-         tx:mode="DFD">
-         <tx:bounds tx:high-vel="127" tx:high-key="A2" tx:low-vel="0" tx:low-key="C1"/>
+      <tx:region tx:fine="0" tx:wave="0" tx:release="0" tx:root="C6" tx:loop="2" tx:range="2" tx:pan="0%"
+         tx:attenuation="0 dB" tx:mode="DFD">
+         <tx:bounds tx:high-vel="127" tx:high-key="B2" tx:low-vel="0" tx:low-key="C2"/>
+      </tx:region>
+      <tx:region tx:fine="0" tx:wave="0" tx:release="0" tx:root="C7" tx:loop="3" tx:range="3" tx:pan="0%"
+         tx:attenuation="0 dB" tx:mode="DFD">
+         <tx:bounds tx:high-vel="127" tx:high-key="B4" tx:low-vel="0" tx:low-key="C3"/>
+      </tx:region>
+      <tx:region tx:fine="0" tx:wave="0" tx:release="0" tx:root="C9" tx:loop="4" tx:range="4" tx:pan="0%"
+         tx:attenuation="0 dB" tx:mode="DFD">
+         <tx:bounds tx:high-vel="127" tx:high-key="B6" tx:low-vel="0" tx:low-key="C5"/>
+      </tx:region>
+      <tx:region tx:fine="0" tx:wave="0" tx:release="0" tx:shift="-12" tx:root="C9" tx:loop="5" tx:range="5" tx:pan="0%"
+         tx:attenuation="0 dB" tx:mode="DFD">
+         <tx:bounds tx:high-vel="127" tx:high-key="B8" tx:low-vel="0" tx:low-key="C7"/>
       </tx:region>
    </tx:group>
 </tx:program>
