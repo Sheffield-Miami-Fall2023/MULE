@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 42.0, 333.0, 73.0, 22.0 ],
+					"text" : "clip 100 127"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -59,21 +71,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 631.0, 530.0, 97.0, 22.0 ],
 					"text" : "loadmess reload"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-50",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 46.0, 174.0, 414.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 92.0, 265.0, 88.0, 33.0 ],
-					"text" : "Choose part and movement",
-					"textjustification" : 2
 				}
 
 			}
@@ -146,8 +143,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 584.0, 333.0, 69.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 324.0, 65.0, 20.0 ],
-					"text" : "Movement"
+					"presentation_rect" : [ 10.0, 205.0, 38.0, 20.0 ],
+					"text" : "Mvt"
 				}
 
 			}
@@ -174,7 +171,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 601.5, 385.5, 20.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 157.5, 375.5, 20.0, 21.0 ],
+					"presentation_rect" : [ 27.5, 182.5, 20.0, 21.0 ],
 					"text" : "3",
 					"textcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ]
 				}
@@ -191,7 +188,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 601.5, 369.5, 20.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 157.5, 359.5, 20.0, 21.0 ],
+					"presentation_rect" : [ 27.5, 166.5, 20.0, 21.0 ],
 					"text" : "2",
 					"textcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ]
 				}
@@ -208,7 +205,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 601.5, 353.5, 20.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 157.5, 343.5, 20.0, 21.0 ],
+					"presentation_rect" : [ 27.5, 150.5, 20.0, 21.0 ],
 					"text" : "1",
 					"textcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ]
 				}
@@ -227,7 +224,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 584.0, 355.0, 40.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 346.0, 40.0, 50.0 ],
+					"presentation_rect" : [ 10.0, 153.0, 40.0, 50.0 ],
 					"size" : 3,
 					"value" : 0
 				}
@@ -236,7 +233,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-35",
-					"items" : [ "-", "choose", "part", "-", ",", "Player", 1, ",", "Player", 2, ",", "Player", 3, ",", "Player", 4 ],
+					"items" : [ "-", "part-", ",", "Plyr", 1, ",", "Plyr", 2, ",", "Plyr", 3, ",", "Plyr", 4 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -244,7 +241,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 480.0, 355.0, 102.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 78.0, 300.0, 102.0, 22.0 ]
+					"presentation_rect" : [ 10.0, 129.0, 57.0, 22.0 ]
 				}
 
 			}
@@ -258,9 +255,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 480.0, 560.0, 320.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 224.0, 0.0, 576.0, 800.0 ],
+					"presentation_rect" : [ 108.0, 0.0, 692.0, 800.0 ],
 					"rendermode" : 0,
-					"url" : "file://MoshBit1-4.pdf"
+					"url" : "file://MoshBit2-1.pdf"
 				}
 
 			}
@@ -272,68 +269,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 178.5, 526.0, 268.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 39.0, 117.0, 141.0, 33.0 ],
-					"text" : "open sampler, load \"MoshBit-Final\" program",
-					"textjustification" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 31.0, 194.0, 140.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 223.0, 140.0, 20.0 ],
-					"text" : "open TX16Wx website",
-					"textoncolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 241.5, 244.0, 35.0 ],
-					"text" : ";\rmax launchbrowser https://www.tx16wx.com"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 31.0, 159.0, 414.0, 20.0 ],
-					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 26.5, 174.0, 157.0, 47.0 ],
-					"text" : "You must install the free TX16Wx Software Sampler before using this patch.",
-					"textjustification" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 74.0, 295.0, 251.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 53.0, 62.0, 127.0, 33.0 ],
-					"text" : "<-- double-click and choose your keyboard"
+					"presentation_rect" : [ 10.0, 80.0, 100.0, 47.0 ],
+					"text" : "load \"MoshBit-Final\" program"
 				}
 
 			}
@@ -345,8 +283,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
 					"patching_rect" : [ 31.0, 295.0, 41.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 62.0, 41.0, 22.0 ],
 					"text" : "notein"
 				}
 
@@ -374,7 +310,7 @@
 					"patching_rect" : [ 65.0, 66.0, 93.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 36.0, 150.0, 20.0 ],
-					"text" : "last update 11/24"
+					"text" : "last update 11/28"
 				}
 
 			}
@@ -403,7 +339,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 118.0, 585.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 152.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 58.0, 85.0, 20.0 ],
 					"text" : "Open Sampler",
 					"textoncolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ]
 				}
@@ -566,8 +502,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-19", 0 ]
+					"destination" : [ "obj-11", 1 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -717,15 +653,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 1 ],
-					"source" : [ "obj-7", 1 ]
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-7", 0 ]
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-7", 1 ]
 				}
 
 			}
